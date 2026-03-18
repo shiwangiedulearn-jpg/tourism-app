@@ -1,0 +1,3163 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-03-18T18:14:56Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2966423381",
+        "addr:city": "Jalandhar",
+        "addr:district": "Jalandhar",
+        "addr:full": "81-R, Model Town, The Mall",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "addr:street": "Mahavir Marg",
+        "amenity": "hospital",
+        "contact:phone": "0181 468 5700",
+        "healthcare": "hospital",
+        "name": "Tagore Hospital and Heart Care Center",
+        "source": "OpenGovernmentData",
+        "website": "https://www.tagorehospital.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.563151,
+          31.3369335
+        ]
+      },
+      "id": "node/2966423381"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5549540521",
+        "addr:city": "Jalandhar",
+        "addr:housenumber": "422-A",
+        "addr:postcode": "144006",
+        "addr:street": "Mota Singh Nagar, Cool Road",
+        "amenity": "hospital",
+        "email": "asghairtransplant@gmail.com",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "plastic_surgery;clinic",
+        "name": "ASG Hair Transplant Centre",
+        "website": "https://asghairtransplant.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5904245,
+          31.310003
+        ]
+      },
+      "id": "node/5549540521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7051030682",
+        "addr:district": "Jalandhar",
+        "addr:full": "333, Lajpat Nagar, Guru Nanak MIssion Chowk",
+        "addr:postcode": "144001",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "CareBest Hospital",
+        "phone": "0181 466 9999",
+        "source": "OpenGovernmentData",
+        "website": "https://www.carebesthospital.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5758667,
+          31.317475
+        ]
+      },
+      "id": "node/7051030682"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7051154493",
+        "addr:district": "Jalandhar",
+        "addr:full": "Nakodar Road, Near Nari Niketan, Jalandhar",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "email": "info@orthonova.in",
+        "name": "Orthonova Hospital",
+        "phone": "098146 44646",
+        "source": "OpenGovernmentData",
+        "website": "https://orthonova.in/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5691961,
+          31.3131732
+        ]
+      },
+      "id": "node/7051154493"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7051329411",
+        "addr:district": "Jalandhar",
+        "addr:full": "Shaheed Udham Singh Nagar Opp. T.V. Centre Jalandhar",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "email": "info@dmchospital.com",
+        "healthcare": "hospital",
+        "name": "Dmc Hospital And Trauma Centre",
+        "phone": "0181-2243800, 2237800",
+        "source": "OpenGovernmentData",
+        "website": "https://dmchospital.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5701111,
+          31.3211894
+        ]
+      },
+      "id": "node/7051329411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7051329465",
+        "addr:district": "Jalandhar",
+        "addr:full": "26, Link Road, Lajpat Nagar, Jalandhar",
+        "addr:postcode": "144021",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "email": "newrubyhospitalpltd@gmail.com",
+        "healthcare": "hospital",
+        "name": "New Ruby Hospital Pvt Ltd",
+        "phone": "0181 222 0130 ,0181 222 4151, 0181 4646 327",
+        "source": "OpenGovernmentData",
+        "website": "https://newrubyhospital.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5729214,
+          31.3154072
+        ]
+      },
+      "id": "node/7051329465"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7053641537",
+        "addr:city": "Jalandhar",
+        "addr:district": "Jalandhar",
+        "addr:full": "408-A, Adarsh Nagar, Near Jain Bhawan, Kapurthala Road,",
+        "addr:postcode": "144008",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "email": "info@karanhospital.com",
+        "healthcare": "hospital",
+        "name": "Karan Hospital",
+        "phone": "+91 87250 48415, 0181 4634082, 4634083",
+        "source": "OpenGovernmentData",
+        "website": "https://www.karanhospital.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5600794,
+          31.3347963
+        ]
+      },
+      "id": "node/7053641537"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7053788872",
+        "addr:district": "Jalandhar",
+        "addr:full": "near P & T Colony Park",
+        "addr:postcode": "144008",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Balbir Singhs Children Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5641823,
+          31.3333672
+        ]
+      },
+      "id": "node/7053788872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7054108247",
+        "addr:district": "Jalandhar",
+        "addr:full": "29 Link Road, Model Town",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "India Kidney Hospital and Dialysis Center",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5771812,
+          31.3133512
+        ]
+      },
+      "id": "node/7054108247"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7058964882",
+        "addr:district": "Jalandhar",
+        "addr:full": "137, New Jawahar Nagar",
+        "addr:postcode": "144005",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Nipun Nanda Nursing Home",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5845973,
+          31.3130423
+        ]
+      },
+      "id": "node/7058964882"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7059004006",
+        "addr:district": "Jalandhar",
+        "addr:full": "Islam Ganj",
+        "addr:postcode": "144021",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Bawa Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5788075,
+          31.3159744
+        ]
+      },
+      "id": "node/7059004006"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7059030130",
+        "addr:district": "Jalandhar",
+        "addr:full": "Main Road Adampur Doaba",
+        "addr:postcode": "144102",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Mann Lifecare Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5780987,
+          31.3105651
+        ]
+      },
+      "id": "node/7059030130"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7059227232",
+        "addr:district": "Jalandhar",
+        "addr:full": "Banda Bahadur Nagar Mahavir Marg",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Swami Satyanand Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.594661,
+          31.31994
+        ]
+      },
+      "id": "node/7059227232"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7059280763",
+        "addr:district": "Jalandhar",
+        "addr:full": "Opp. Mann Scanning Centre, Gharha Road",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Pawan Hospital and Maternity Home",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5665143,
+          31.3232894
+        ]
+      },
+      "id": "node/7059280763"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7059285837",
+        "addr:district": "Jalandhar",
+        "addr:full": "73, Udham Singh Nagar",
+        "addr:postcode": "144005",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Tyagmurti Goswami Ganeshdutt Missionary Hospital",
+        "phone": "01812222613",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5754431,
+          31.3232448
+        ]
+      },
+      "id": "node/7059285837"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7063228937",
+        "addr:district": "Jalandhar",
+        "addr:full": "123, Shaheed Udham Singh Nagar",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "contact:phone": "070874 37556",
+        "healthcare": "hospital",
+        "name": "Ashoka Neuro Psychiatric Hospital",
+        "source": "OpenGovernmentData",
+        "website": "http://www.ashoka-hospital.in/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5684515,
+          31.3230986
+        ]
+      },
+      "id": "node/7063228937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7063256375",
+        "addr:district": "Jalandhar",
+        "addr:full": "Near Nakodar Chowk",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "contact:phone": "0181 223 0500",
+        "healthcare": "hospital",
+        "name": "Berry Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.572741,
+          31.320109
+        ]
+      },
+      "id": "node/7063256375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7063547471",
+        "addr:district": "Jalandhar",
+        "addr:full": "Nakodar Road, Near Nari Niketan",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Oberoi Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5667235,
+          31.3234269
+        ]
+      },
+      "id": "node/7063547471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7063547481",
+        "addr:district": "Jalandhar",
+        "addr:full": "Jalandhar",
+        "addr:postcode": "144005",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "contact:phone": "087259 87940",
+        "healthcare": "hospital",
+        "name": "Sood Eye Care Centre",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.566112,
+          31.3301939
+        ]
+      },
+      "id": "node/7063547481"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7063550157",
+        "addr:district": "Jalandhar",
+        "addr:full": "305, Nakodar Chowk, Lajpat Nagar, Jalandhar",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "contact:phone": "0181 508 0752",
+        "healthcare": "hospital",
+        "name": "Oxford Hospital (P) Ltd.",
+        "source": "OpenGovernmentData",
+        "website": "https://oxfordhospital.co.in/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5734129,
+          31.3178474
+        ]
+      },
+      "id": "node/7063550157"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7063635700",
+        "addr:district": "Jalandhar",
+        "addr:full": "Inside Joshi Hospital, 3Road Floor,Kapurthala Chowk",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "contact:phone": "0181 229 0263",
+        "healthcare": "hospital",
+        "name": "Shree Devi Talab Mandir Charitable Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5816621,
+          31.3429396
+        ]
+      },
+      "id": "node/7063635700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7063639367",
+        "addr:district": "Jalandhar",
+        "addr:full": "Vijay Nagar ,Near Football Chowk",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "contact:phone": "080978 19785",
+        "healthcare": "hospital",
+        "name": "Bhutani Children Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5668938,
+          31.3236823
+        ]
+      },
+      "id": "node/7063639367"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7063759417",
+        "addr:district": "Jalandhar",
+        "addr:full": "Mission Compound, Near Batra Hospital Adarsh Nagar",
+        "addr:postcode": "144005",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Sigma Hospital, Jalandhar",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5666511,
+          31.3298995
+        ]
+      },
+      "id": "node/7063759417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7063776619",
+        "addr:district": "Jalandhar",
+        "addr:full": "Kishanpura Road, Doaba Chowk, beside Citizens urban cooperative bank, Laxmi Pura, Jalandhar",
+        "addr:postcode": "144004",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "contact:phone": "098889 22551",
+        "healthcare": "hospital",
+        "name": "Kamal Hospital, Jalandhar",
+        "source": "OpenGovernmentData",
+        "website": "https://kamalhospitaljalandhar.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5874932,
+          31.3428433
+        ]
+      },
+      "id": "node/7063776619"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7065255988",
+        "addr:district": "Jalandhar",
+        "addr:full": "11, Near Tv Studio, Gujral NagarJalandhar City",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "contact:phone": "0181 225 4444",
+        "healthcare": "hospital",
+        "name": "Verma E.N.T. Hospital and Saraswati Laser Surgery Centre",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5664571,
+          31.3237346
+        ]
+      },
+      "id": "node/7065255988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7065399091",
+        "addr:district": "Jalandhar",
+        "addr:full": "230, Mota Singh Nagar, Green Park, Near General Bus Stand",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Bath Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5887184,
+          31.3117453
+        ]
+      },
+      "id": "node/7065399091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7068246239",
+        "addr:district": "Jalandhar",
+        "addr:full": "7-A, Lajpat Nagar, Link Road, Near Chawla Nursing Home",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "contact:phone": "0181 222 6148",
+        "healthcare": "hospital",
+        "name": "Apex Hospital and Maternity Home",
+        "source": "OpenGovernmentData",
+        "website": "http://apex-hospital.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5795501,
+          31.3160614
+        ]
+      },
+      "id": "node/7068246239"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7068246244",
+        "addr:district": "Jalandhar",
+        "addr:full": "Link Road, Near Guru Amar Dass Chowk, Lajpat Nagar",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "contact:phone": "0181 500 3005",
+        "healthcare": "hospital",
+        "name": "Arora Eye Hospital and Retina Centre",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5770772,
+          31.3134536
+        ]
+      },
+      "id": "node/7068246244"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7068246249",
+        "addr:district": "Jalandhar",
+        "addr:full": "9, Lajpat Nagar, Link Road",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "contact:phone": "0181 222 4374",
+        "email": "admin@chawlanursinghome.com",
+        "healthcare": "hospital",
+        "name": "Chawla Nursing Home And Maternity Hospital",
+        "source": "OpenGovernmentData",
+        "website": "https://www.chawlanursinghome.in/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5766942,
+          31.3136119
+        ]
+      },
+      "id": "node/7068246249"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7068246254",
+        "addr:district": "Jalandhar",
+        "addr:full": "Central Town",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "contact:phone": "098883 59595",
+        "healthcare": "hospital",
+        "name": "Sachar Hospital and Maternity Home",
+        "source": "OpenGovernmentData",
+        "website": "sacharahospital.co.in"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5870198,
+          31.3247592
+        ]
+      },
+      "id": "node/7068246254"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7068266277",
+        "addr:district": "Jalandhar",
+        "addr:full": "opp. Punjab College Of Engineering, Shaheed Udham Singh Nagar",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "contact:phone": "070878 66201",
+        "healthcare": "hospital",
+        "name": "Sikka Hospital",
+        "source": "OpenGovernmentData",
+        "website": "https://sikkahospital.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5689062,
+          31.3234156
+        ]
+      },
+      "id": "node/7068266277"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7068270496",
+        "addr:district": "Jalandhar",
+        "addr:full": "Near Nakoder Chownk ,Jalandhar City",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "contact:phone": "0181 222 6200",
+        "healthcare": "hospital",
+        "name": "Doaba Hospital Pvt. Ltd.",
+        "operator:type": "private",
+        "source": "OpenGovernmentData",
+        "website": "https://doabahospitalpvtltd.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5740097,
+          31.3182441
+        ]
+      },
+      "id": "node/7068270496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7068270501",
+        "addr:district": "Jalandhar",
+        "addr:full": "410 Adarsh Nagar, Lajpat Nagar, Opp Jullundur Gymkhana Club",
+        "addr:postcode": "144005",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "contact:phone": "0181 222 0051",
+        "healthcare": "hospital",
+        "name": "Sharda E.N.T Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5773401,
+          31.3183363
+        ]
+      },
+      "id": "node/7068270501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7068282258",
+        "addr:district": "Jalandhar",
+        "addr:full": "Mahavir Marg, Shaheed Udham Singh Nagar",
+        "addr:postcode": "144005",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "contact:phone": "095018 56549",
+        "healthcare": "hospital",
+        "name": "Dr.Ravi Paul Children Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5694365,
+          31.3208755
+        ]
+      },
+      "id": "node/7068282258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7068734172",
+        "addr:district": "Jalandhar",
+        "addr:full": "37, Kapurthala Chowk",
+        "addr:postcode": "144008",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "contact:phone": "0181 508 3004",
+        "healthcare": "hospital",
+        "name": "Vasal Hospital",
+        "source": "OpenGovernmentData",
+        "website": "vasalhospital.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5638146,
+          31.3342948
+        ]
+      },
+      "id": "node/7068734172"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7069029359",
+        "addr:district": "Jalandhar",
+        "addr:full": "Kapurthala Chowk, Krishna Nagar, Adarsh Nagar",
+        "addr:postcode": "144008",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "contact:phone": "098159 70401",
+        "healthcare": "hospital",
+        "name": "Satyam Hospital and Trauma Centre",
+        "source": "OpenGovernmentData",
+        "website": "https://satyamhospitaljalandhar.business.site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5620472,
+          31.3339801
+        ]
+      },
+      "id": "node/7069029359"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7071378762",
+        "addr:district": "Jalandhar",
+        "addr:full": "Near Mann Scanning center, Gujral nagar",
+        "addr:postcode": "144005",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "contact:phone": "0181 225 4798",
+        "healthcare": "hospital",
+        "name": "Chhabra Hospital and Maternity Home",
+        "source": "OpenGovernmentData",
+        "website": "https://www.babiesworldivfcentre.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5659438,
+          31.3229463
+        ]
+      },
+      "id": "node/7071378762"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7071378767",
+        "addr:district": "Jalandhar",
+        "addr:full": "Shaheed Udham, Opp TV Centre, Singh Nagar",
+        "addr:postcode": "144005",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "contact:phone": "0181 222 7121",
+        "healthcare": "hospital",
+        "name": "Kuldip Hospital, Jalandhar",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5690478,
+          31.3213416
+        ]
+      },
+      "id": "node/7071378767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7071388287",
+        "addr:district": "Jalandhar",
+        "addr:full": "Near City Hospital, New Jawahar Nagar",
+        "addr:postcode": "144003",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "contact:phone": "098882 65300",
+        "healthcare": "hospital",
+        "name": "Harpreet Eye and Dental Care Centre",
+        "source": "OpenGovernmentData",
+        "website": "https://lasiklaserjalandhar.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5829696,
+          31.3100827
+        ]
+      },
+      "id": "node/7071388287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7071388292",
+        "addr:district": "Jalandhar",
+        "addr:full": "Civil Lines, Master Tara Singh Nagar",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Mangat Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5883285,
+          31.3187831
+        ]
+      },
+      "id": "node/7071388292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7071388297",
+        "addr:district": "Jalandhar",
+        "addr:full": "Near Pseb Office, Hoshiarpur Road, Santokhpura",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "contact:phone": "0181 264 0088",
+        "name": "Metro Hospital and Maternity Home",
+        "operator:type": "private",
+        "source": "OpenGovernmentData",
+        "website": "https://metro-hospital-maternity-home.business.site/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5954403,
+          31.3440617
+        ]
+      },
+      "id": "node/7071388297"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7071491172",
+        "addr:district": "Jalandhar",
+        "addr:full": "Hamidpura, Adarsh Nagar, Jalandhar",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Batra Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5663109,
+          31.3297691
+        ]
+      },
+      "id": "node/7071491172"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7071491177",
+        "addr:district": "Jalandhar",
+        "addr:full": "Mahavir Marg, Adarsh Nagar",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "contact:phone": "0181 508 1656",
+        "healthcare": "hospital",
+        "name": "Central Hospital and Maternity Home",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5647222,
+          31.3274903
+        ]
+      },
+      "id": "node/7071491177"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7071558836",
+        "addr:city": "Jalandhar",
+        "addr:district": "Jalandhar",
+        "addr:full": "Near Police Station, Jyothi Chowk, Islam Ganj, Jalandhar",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "contact:mobile": "0181 223 0933",
+        "healthcare": "hospital",
+        "name": "Civil Hospital",
+        "source": "OpenGovernmentData",
+        "website": "http://www.civilhospitaljalandhar.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5730414,
+          31.3261305
+        ]
+      },
+      "id": "node/7071558836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7071675912",
+        "addr:district": "Jalandhar",
+        "addr:full": "Gulab Devi Rd, Near Surjit Hockey Stadium",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "contact:phone": "0181 225 4157",
+        "name": "Gulab Devi Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5592878,
+          31.3406726
+        ]
+      },
+      "id": "node/7071675912"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7074314610",
+        "addr:district": "Jalandhar",
+        "addr:full": "GT road, Basti Adda Road opposit to N S Complex",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "contact:phone": "0181 240 2758",
+        "healthcare": "hospital",
+        "name": "Jaswant Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.56994,
+          31.3302346
+        ]
+      },
+      "id": "node/7074314610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7079092917",
+        "addr:district": "Jalandhar",
+        "addr:full": "Jyoti Chowk, Kartar Market,Opposite Lovely Sweets",
+        "addr:postcode": "144005",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "contact:phone": "0181 245 5980",
+        "healthcare": "hospital",
+        "name": "Jagdeep Eye Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5743097,
+          31.3236639
+        ]
+      },
+      "id": "node/7079092917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7079092927",
+        "addr:district": "Jalandhar",
+        "addr:full": "379, Mahavir Marg, Adarsh Nagar, Near MGN College",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "addr:street": "Vasant Vihar",
+        "amenity": "hospital",
+        "contact:phone": "0181 225 0770",
+        "email": "info@makkarhospital.com",
+        "healthcare": "hospital",
+        "name": "Makkar Hospital",
+        "operator:type": "private",
+        "source": "OpenGovernmentData",
+        "website": "http://www.makkarhospitaljalandhar.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5613614,
+          31.3326167
+        ]
+      },
+      "id": "node/7079092927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7079092956",
+        "addr:district": "Jalandhar",
+        "addr:full": "No:132-A, Basti Sheikh Rd, Near Shehnai Palace, Ashok Nagar",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Balaji Medicare Hospital - Jalandhar",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5613369,
+          31.3215145
+        ]
+      },
+      "id": "node/7079092956"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7103675534",
+        "addr:district": "Jalandhar",
+        "addr:full": "701-L, Mall Rd, Abadpura, Model Town",
+        "addr:postcode": "144003",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "contact:phone": "0181 469 7500",
+        "healthcare": "hospital",
+        "name": "Thind Eye Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5764318,
+          31.3107056
+        ]
+      },
+      "id": "node/7103675534"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7103717723",
+        "addr:district": "Jalandhar",
+        "addr:full": "Mahavir Marg, Gujral Nagar",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "contact:phone": "0181 225 4598",
+        "healthcare": "hospital",
+        "name": "Saranjit Nursing Home and Herjinder Maternity Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5668676,
+          31.3238631
+        ]
+      },
+      "id": "node/7103717723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7103836473",
+        "addr:city": "Jalandhar",
+        "addr:district": "Jalandhar",
+        "addr:full": "153 4, 153/4, Avtar Nagar",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "contact:phone": "098141 33669",
+        "healthcare": "hospital",
+        "name": "Neil Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5664247,
+          31.322049
+        ]
+      },
+      "id": "node/7103836473"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7103863134",
+        "addr:district": "Jalandhar",
+        "addr:full": "111, Shaheed Udham Singh Nagar",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "contact:phone": "0181 222 7608",
+        "healthcare": "hospital",
+        "name": "Mahajan Eye Hospital And Maternity Home (Lasik Laser Centre)",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5704182,
+          31.3231255
+        ]
+      },
+      "id": "node/7103863134"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7103863164",
+        "addr:district": "Jalandhar",
+        "addr:full": "B D A Enclave, Santokh Pura",
+        "addr:postcode": "144004",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "contact:phone": "0181 229 1700",
+        "healthcare": "hospital",
+        "name": "Kapoor Bone and Children Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5911111,
+          31.3537561
+        ]
+      },
+      "id": "node/7103863164"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7103908007",
+        "addr:district": "Jalandhar",
+        "addr:full": "Door No-28, Mahavir Marg, Near HDFC Bank, Vijay Nagar",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "M.K. Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5663005,
+          31.3274717
+        ]
+      },
+      "id": "node/7103908007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7103908032",
+        "addr:district": "Jalandhar",
+        "addr:full": "Near Shehnai Palace, Tagore Nagar, Ashok Nagar,",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "contact:phone": "085283 05377",
+        "healthcare": "hospital",
+        "name": "Dr. Atul's Child Care Centre",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5608185,
+          31.320842
+        ]
+      },
+      "id": "node/7103908032"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7103908037",
+        "addr:district": "Jalandhar",
+        "addr:full": "212, Mahavir Marg, Gujral Nagar",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "contact:phone": "099146 00666",
+        "healthcare": "hospital",
+        "name": "Kataria Eye and Ent Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5665585,
+          31.3242265
+        ]
+      },
+      "id": "node/7103908037"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7104053321",
+        "addr:city": "Jalandhar",
+        "addr:district": "Jalandhar",
+        "addr:full": "New Court Road Opposite Commissioners Office, Rajinder Nagar, Civil Line",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "contact:phone": "0181 223 0822",
+        "healthcare": "hospital",
+        "name": "Kapil Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5903988,
+          31.3182269
+        ]
+      },
+      "id": "node/7104053321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7105995480",
+        "addr:district": "Jalandhar",
+        "addr:full": "Chunmun Complex, Near, 212, Mall Rd, New Jawahar Nagar",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "contact:phone": "0181 222 0900",
+        "healthcare": "hospital",
+        "name": "Bhargava Advanced Gynae Surgen Cancer Centre",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5834483,
+          31.3111069
+        ]
+      },
+      "id": "node/7105995480"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7106035574",
+        "addr:district": "Jalandhar",
+        "addr:full": "408 - A, Adarsh Nagar, Near Jain Bhawan, Kapurthala Road",
+        "addr:postcode": "144002",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "contact:phone": "094170 07288",
+        "healthcare": "hospital",
+        "name": "Joshi Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5634928,
+          31.3341608
+        ]
+      },
+      "id": "node/7106035574"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7106398511",
+        "addr:district": "Jalandhar",
+        "addr:full": "221, Adarsh Nagar, Mahavir Marg",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "contact:phone": "0181 262 1300",
+        "healthcare": "hospital",
+        "name": "Pasricha Hospital and Maternity Home / Pasricha Hospital Laser and Plastic Surgery Center",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5627626,
+          31.3325878
+        ]
+      },
+      "id": "node/7106398511"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866530847",
+        "addr:district": "Jalandhar",
+        "addr:postcode": "144008",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "name": "Sharma Eye Hospital and Maternity Home",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.554258,
+          31.358153
+        ]
+      },
+      "id": "node/7866530847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866530852",
+        "addr:district": "Jalandhar",
+        "addr:full": "Pathankot Chowk",
+        "addr:postcode": "144004",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Dada Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.585877,
+          31.357282
+        ]
+      },
+      "id": "node/7866530852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866530853",
+        "addr:district": "Jalandhar",
+        "addr:full": "Sarabha Nagar",
+        "addr:postcode": "144012",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "name": "Bahga Hospital and Nursing Home",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.593222,
+          31.35982
+        ]
+      },
+      "id": "node/7866530853"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866530856",
+        "addr:district": "Jalandhar",
+        "addr:postcode": "144004",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Sidhu Hospital and Nursing Home",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.592492,
+          31.357337
+        ]
+      },
+      "id": "node/7866530856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866569676",
+        "addr:district": "Jalandhar",
+        "addr:full": "Jawahar Nagar",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Satkartar Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.590026,
+          31.315725
+        ]
+      },
+      "id": "node/7866569676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866569678",
+        "addr:district": "Jalandhar",
+        "addr:full": "Jawahar Nagar",
+        "addr:postcode": "144006",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Dass Eye Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.58346,
+          31.312821
+        ]
+      },
+      "id": "node/7866569678"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866569714",
+        "addr:district": "Jalandhar",
+        "addr:postcode": "144009",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "name": "Shubhkarman Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.612704,
+          31.352543
+        ]
+      },
+      "id": "node/7866569714"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866569733",
+        "addr:district": "Jalandhar",
+        "addr:full": "Gobind Garh",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Blue Star Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.592478,
+          31.32665
+        ]
+      },
+      "id": "node/7866569733"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866569739",
+        "addr:district": "Jalandhar",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Sarvodya Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.6017823,
+          31.3107431
+        ]
+      },
+      "id": "node/7866569739"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866569744",
+        "addr:district": "Jalandhar",
+        "addr:full": "Lamba Pind Chowk, Prem Nagar",
+        "addr:postcode": "144004",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "name": "Parminder Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.604706,
+          31.348511
+        ]
+      },
+      "id": "node/7866569744"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605600",
+        "addr:district": "Jalandhar",
+        "addr:postcode": "144002",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hakim Tilak Raj Kapoor Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.563457,
+          31.327506
+        ]
+      },
+      "id": "node/7866605600"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605602",
+        "addr:district": "Jalandhar",
+        "addr:full": "Nakodar Chowk",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Dr. Anil Sud - Children Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.572385,
+          31.319851
+        ]
+      },
+      "id": "node/7866605602"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605605",
+        "addr:district": "Jalandhar",
+        "addr:full": "J.P. Nagar",
+        "addr:postcode": "144002",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Aggarwal Liver and Gut Super Speciality Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.559144,
+          31.326997
+        ]
+      },
+      "id": "node/7866605605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605608",
+        "addr:district": "Jalandhar",
+        "addr:full": "White House Hospital, Shaheed Udham Singh Nagar",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Neurotherapy Centre",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.569509,
+          31.323967
+        ]
+      },
+      "id": "node/7866605608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605609",
+        "addr:district": "Jalandhar",
+        "addr:full": "Shaheed Udham Singh Nagar",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Rattan Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.56823,
+          31.325151
+        ]
+      },
+      "id": "node/7866605609"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605611",
+        "addr:district": "Jalandhar",
+        "addr:full": "Adarsh Nagar",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Bhatia Eye Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5651968,
+          31.3281804
+        ]
+      },
+      "id": "node/7866605611"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605612",
+        "addr:district": "Jalandhar",
+        "addr:full": "Arya Nagar",
+        "addr:postcode": "144008",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "name": "Rajan Memorial Eye Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5613048,
+          31.3396159
+        ]
+      },
+      "id": "node/7866605612"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605614",
+        "addr:district": "Jalandhar",
+        "addr:full": "Dashmesh Nagar",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Dhingra Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.564521,
+          31.322202
+        ]
+      },
+      "id": "node/7866605614"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605618",
+        "addr:district": "Jalandhar",
+        "addr:full": "Adarsh Nagar",
+        "addr:postcode": "144002",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "name": "Mahajan Carewell Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.551789,
+          31.335108
+        ]
+      },
+      "id": "node/7866605618"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605621",
+        "addr:district": "Jalandhar",
+        "addr:full": "Shaheed Udham Singh Nagar",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Khosla Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.568028,
+          31.323272
+        ]
+      },
+      "id": "node/7866605621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605622",
+        "addr:district": "Jalandhar",
+        "addr:full": "Abadpura, Model Town",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Sehyog Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.574185,
+          31.314216
+        ]
+      },
+      "id": "node/7866605622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605624",
+        "addr:district": "Jalandhar",
+        "addr:postcode": "144002",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "name": "Sodhi Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5519914,
+          31.3243571
+        ]
+      },
+      "id": "node/7866605624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605626",
+        "addr:district": "Jalandhar",
+        "addr:full": "Shaheed Udham Singh Nagar",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Saini Heart Centre",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.568656,
+          31.32223
+        ]
+      },
+      "id": "node/7866605626"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605629",
+        "addr:district": "Jalandhar",
+        "addr:postcode": "144008",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Oberoi Hospital and Trauma Centre",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.564801,
+          31.33467
+        ]
+      },
+      "id": "node/7866605629"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605630",
+        "addr:district": "Jalandhar",
+        "addr:full": "Gujral Nagar",
+        "addr:postcode": "144002",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Panacea Women and Heart Centre",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.565582,
+          31.323858
+        ]
+      },
+      "id": "node/7866605630"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605631",
+        "addr:district": "Jalandhar",
+        "addr:full": "Jyothi Chowk",
+        "addr:postcode": "144006",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Amar Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.574654,
+          31.324162
+        ]
+      },
+      "id": "node/7866605631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605634",
+        "addr:district": "Jalandhar",
+        "addr:full": "Jalandhar",
+        "addr:postcode": "144006",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Asha Kirana Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.57436,
+          31.319916
+        ]
+      },
+      "id": "node/7866605634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605640",
+        "addr:district": "Jalandhar",
+        "addr:full": "Shaheed Udham Singh Nagar",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Handa Neuro Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5676402,
+          31.3240866
+        ]
+      },
+      "id": "node/7866605640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605643",
+        "addr:district": "Jalandhar",
+        "addr:full": "Abadpura",
+        "addr:postcode": "144003",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Dr. Manjeet Saini Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.575558,
+          31.310824
+        ]
+      },
+      "id": "node/7866605643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605645",
+        "addr:district": "Jalandhar",
+        "addr:full": "Lajpat Nagar",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Mannat Super Speciality Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5751825,
+          31.3142879
+        ]
+      },
+      "id": "node/7866605645"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605646",
+        "addr:district": "Jalandhar",
+        "addr:full": "Krishna Nagar, Adarsh Nagar",
+        "addr:postcode": "144002",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Rayon Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.562776,
+          31.3296063
+        ]
+      },
+      "id": "node/7866605646"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605647",
+        "addr:district": "Jalandhar",
+        "addr:full": "Saraswati Vihar, Hardev Nagar",
+        "addr:postcode": "144004",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "name": "Ranjit Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5551925,
+          31.3356787
+        ]
+      },
+      "id": "node/7866605647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605650",
+        "addr:district": "Jalandhar",
+        "addr:full": "Model Town",
+        "addr:postcode": "144003",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "name": "Nidhi Malhotra Chindrens Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.574209,
+          31.31004
+        ]
+      },
+      "id": "node/7866605650"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605651",
+        "addr:district": "Jalandhar",
+        "addr:full": "Adarsh Nagar, Jalandhar",
+        "addr:postcode": "144008",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Armaan Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.564756,
+          31.328673
+        ]
+      },
+      "id": "node/7866605651"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605654",
+        "addr:district": "Jalandhar",
+        "addr:full": "Kapurthala Chowk, Adarsh Nagar",
+        "addr:postcode": "144005",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Sigma Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5603211,
+          31.3346764
+        ]
+      },
+      "id": "node/7866605654"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605657",
+        "addr:district": "Jalandhar",
+        "addr:full": "Adarsh Nagar",
+        "addr:postcode": "144002",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "name": "Jammu Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5507173,
+          31.3357582
+        ]
+      },
+      "id": "node/7866605657"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605659",
+        "addr:district": "Jalandhar",
+        "addr:full": "Shakti Nagar",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ganga Orthocare Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.565741,
+          31.327984
+        ]
+      },
+      "id": "node/7866605659"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605661",
+        "addr:district": "Jalandhar",
+        "addr:full": "Near Swarn Park, Hardev Nagar",
+        "addr:postcode": "144008",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "name": "Sethi Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.552697,
+          31.337736
+        ]
+      },
+      "id": "node/7866605661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605665",
+        "addr:district": "Jalandhar",
+        "addr:full": "Ambedkar Chowk, Lajpat Nagar",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Goel Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5720324,
+          31.3185618
+        ]
+      },
+      "id": "node/7866605665"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605666",
+        "addr:district": "Jalandhar",
+        "addr:full": "Hamidpura, Adarsh Nagar",
+        "addr:postcode": "144008",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Childrens Specialist",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.563848,
+          31.332606
+        ]
+      },
+      "id": "node/7866605666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605667",
+        "addr:district": "Jalandhar",
+        "addr:full": "Abadpura, Model Town",
+        "addr:postcode": "144003",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Dr. Shangara Singh Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.572646,
+          31.314715
+        ]
+      },
+      "id": "node/7866605667"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605669",
+        "addr:district": "Jalandhar",
+        "addr:full": "Hamidpura, Adarsh Nagar",
+        "addr:postcode": "144008",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Nasa Neurocare and Trauma Centre",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.563556,
+          31.334386
+        ]
+      },
+      "id": "node/7866605669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605672",
+        "addr:district": "Jalandhar",
+        "addr:full": "Durga Colony",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Bhatia Chest Centre",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.564525,
+          31.337323
+        ]
+      },
+      "id": "node/7866605672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605675",
+        "addr:district": "Jalandhar",
+        "addr:full": "Kapurthala Chowk",
+        "addr:postcode": "144008",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "PMG Children Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5618277,
+          31.3358316
+        ]
+      },
+      "id": "node/7866605675"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605677",
+        "addr:district": "Jalandhar",
+        "addr:full": "Abadpura",
+        "addr:postcode": "144003",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Anand ENT Hospital and Nursing Home",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5757421,
+          31.3107751
+        ]
+      },
+      "id": "node/7866605677"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605678",
+        "addr:district": "Jalandhar",
+        "addr:full": "Sangat Colony, Durga Colony",
+        "addr:postcode": "144008",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Seth ENT Care",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5635124,
+          31.3364815
+        ]
+      },
+      "id": "node/7866605678"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605679",
+        "addr:district": "Jalandhar",
+        "addr:full": "Krishna Nagar, Adarsh Nagar",
+        "addr:postcode": "144002",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Shivam IVF and Fertililty Centre",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5608659,
+          31.3345359
+        ]
+      },
+      "id": "node/7866605679"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605680",
+        "addr:district": "Jalandhar",
+        "addr:full": "Abadpura, Model Town",
+        "addr:postcode": "144003",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "AVM Laser Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.576552,
+          31.312924
+        ]
+      },
+      "id": "node/7866605680"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605681",
+        "addr:district": "Jalandhar",
+        "addr:full": "Adarsh Nagar",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Gandhi Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5638641,
+          31.3304768
+        ]
+      },
+      "id": "node/7866605681"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605683",
+        "addr:district": "Jalandhar",
+        "addr:postcode": "144002",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "S.T Hospital and Infertility Centre",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.566106,
+          31.326187
+        ]
+      },
+      "id": "node/7866605683"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605685",
+        "addr:district": "Jalandhar",
+        "addr:full": "Abadpura",
+        "addr:postcode": "144003",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Global Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.576255,
+          31.313106
+        ]
+      },
+      "id": "node/7866605685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605687",
+        "addr:district": "Jalandhar",
+        "addr:full": "Daspura",
+        "addr:postcode": "144008",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "R.B. Sewak Ram Maternity and Children Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.56361,
+          31.334702
+        ]
+      },
+      "id": "node/7866605687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605689",
+        "addr:district": "Jalandhar",
+        "addr:full": "Guru Nanak Chowk, Lajpat Nagar",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Cardinova Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.57626,
+          31.316618
+        ]
+      },
+      "id": "node/7866605689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605690",
+        "addr:district": "Jalandhar",
+        "addr:full": "Shaheed Udham Singh Nagar",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Malhotra ENT Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.571044,
+          31.323243
+        ]
+      },
+      "id": "node/7866605690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605691",
+        "addr:district": "Jalandhar",
+        "addr:full": "Gujral Nagar, Jalandhar",
+        "addr:postcode": "144002",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Sahara Medical Centre and Maternity Home",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.565403,
+          31.323822
+        ]
+      },
+      "id": "node/7866605691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866605694",
+        "addr:district": "Jalandhar",
+        "addr:postcode": "144003",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Aarogyam Kidney Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.57635,
+          31.31028
+        ]
+      },
+      "id": "node/7866605694"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866626492",
+        "addr:district": "Jalandhar",
+        "addr:postcode": "144008",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Dogra Ayurvedic Eye Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.579172,
+          31.33683
+        ]
+      },
+      "id": "node/7866626492"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866626494",
+        "addr:district": "Jalandhar",
+        "addr:full": "Jalandhar",
+        "addr:postcode": "144004",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Shri Ram Clinic and Maternity Home",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5757071,
+          31.3529399
+        ]
+      },
+      "id": "node/7866626494"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866626495",
+        "addr:district": "Jalandhar",
+        "addr:full": "Tara Singh Nagar, Jalandhar",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Amarjit Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.57276,
+          31.348791
+        ]
+      },
+      "id": "node/7866626495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866626500",
+        "addr:district": "Jalandhar",
+        "addr:postcode": "144004",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Aekam Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.580153,
+          31.356377
+        ]
+      },
+      "id": "node/7866626500"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866626505",
+        "addr:district": "Jalandhar",
+        "addr:full": "Hari Singh Nagar, Aman Nagar",
+        "addr:postcode": "144004",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Jagdev Hospital and Maternity Home",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.580913,
+          31.356338
+        ]
+      },
+      "id": "node/7866626505"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866626519",
+        "addr:district": "Jalandhar",
+        "addr:full": "Chahar Bagh",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Goel Surgical Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.581133,
+          31.328341
+        ]
+      },
+      "id": "node/7866626519"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866626524",
+        "addr:district": "Jalandhar",
+        "addr:postcode": "144004",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "City Charitable Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5741004,
+          31.3536405
+        ]
+      },
+      "id": "node/7866626524"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866626526",
+        "addr:district": "Jalandhar",
+        "addr:full": "Mathura Nagar, Shiv Nagar",
+        "addr:postcode": "144004",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Maharaja Agarsain Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.575745,
+          31.344627
+        ]
+      },
+      "id": "node/7866626526"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866626531",
+        "addr:district": "Jalandhar",
+        "addr:full": "Charanjit Pura, Gopal Nagar",
+        "addr:postcode": "144008",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Goel Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.571611,
+          31.335587
+        ]
+      },
+      "id": "node/7866626531"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866626533",
+        "addr:district": "Jalandhar",
+        "addr:full": "Partap Bagh, Fentonganj",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Pal Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5851797,
+          31.3293412
+        ]
+      },
+      "id": "node/7866626533"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866626535",
+        "addr:district": "Jalandhar",
+        "addr:full": "Milap Chowk",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Baweja Eye Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.580859,
+          31.328662
+        ]
+      },
+      "id": "node/7866626535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866626539",
+        "addr:district": "Jalandhar",
+        "addr:full": "Hari Singh Nagar, Aman Nagar",
+        "addr:postcode": "144004",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Sondhi Hospital and Scanning Centre",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.580673,
+          31.356514
+        ]
+      },
+      "id": "node/7866626539"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866626540",
+        "addr:district": "Jalandhar",
+        "addr:full": "Jatpura",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Swami Shukal Chand Charitable Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.571646,
+          31.331984
+        ]
+      },
+      "id": "node/7866626540"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866626542",
+        "addr:district": "Jalandhar",
+        "addr:full": "Hari Singh Nagar",
+        "addr:postcode": "144004",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Gondi Eye Care Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5761634,
+          31.3556081
+        ]
+      },
+      "id": "node/7866626542"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866626544",
+        "addr:district": "Jalandhar",
+        "addr:full": "Jalandhar",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Guru Tej Bahadur Charitable Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5847428,
+          31.3260787
+        ]
+      },
+      "id": "node/7866626544"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866626546",
+        "addr:district": "Jalandhar",
+        "addr:full": "Chahar Bagh, Central Town",
+        "addr:postcode": "144001",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Navjiwan Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.583509,
+          31.328165
+        ]
+      },
+      "id": "node/7866626546"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866626547",
+        "addr:district": "Jalandhar",
+        "addr:full": "Tara Singh Nagar, Jalandhar",
+        "addr:postcode": "144006",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Prem Eye Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.583197,
+          31.32128
+        ]
+      },
+      "id": "node/7866626547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866626551",
+        "addr:district": "Jalandhar",
+        "addr:full": "Gopal Nagar, Jalandhar",
+        "addr:postcode": "144008",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Dogra Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5724705,
+          31.3356274
+        ]
+      },
+      "id": "node/7866626551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866626559",
+        "addr:district": "Jalandhar",
+        "addr:postcode": "144008",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Savitri Hospital and Maternity Home",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5766644,
+          31.3368241
+        ]
+      },
+      "id": "node/7866626559"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866626560",
+        "addr:district": "Jalandhar",
+        "addr:full": "Sat Nagar, Neela Mahal",
+        "addr:postcode": "144008",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Sareen Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.575857,
+          31.339817
+        ]
+      },
+      "id": "node/7866626560"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866626564",
+        "addr:district": "Jalandhar",
+        "addr:postcode": "144004",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Sharma Medicare and Maternity Home",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.580537,
+          31.354471
+        ]
+      },
+      "id": "node/7866626564"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9873886843",
+        "addr:city": "jalandhar",
+        "addr:housenumber": "football chowk",
+        "addr:postcode": "144002",
+        "addr:street": "mahavir marg",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "fertility",
+        "name": "S T Hospital",
+        "phone": "9915402525",
+        "website": "https://www.sthospital.in/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5661166,
+          31.3262254
+        ]
+      },
+      "id": "node/9873886843"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11849192614",
+        "addr:city": "Jalandhar",
+        "addr:district": "Jalandhar",
+        "addr:street": "Kapurthala Chowk",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Goel Kidney Care Hospital",
+        "operator": "Dr Tanmaya Goel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5621057,
+          31.334183
+        ]
+      },
+      "id": "node/11849192614"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12265912552",
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5696073,
+          31.3255712
+        ]
+      },
+      "id": "node/12265912552"
+    }
+  ]
+}

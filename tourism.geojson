@@ -1,0 +1,112 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-03-18T18:16:00Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/318924022",
+        "name": "J C Resort",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.6148682,
+          31.3257081
+        ]
+      },
+      "id": "node/318924022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/477127494",
+        "name": "Ranvir Classic",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5954101,
+          31.3521953
+        ]
+      },
+      "id": "node/477127494"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/580949661",
+        "name": "M1",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.590386,
+          31.3167714
+        ]
+      },
+      "id": "node/580949661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5094966679",
+        "addr:city": "Jalandhar",
+        "addr:postcode": "144001",
+        "addr:street": "G.T Road, Near I.S.B.T, Jawahar Nagar, New Market, Jawahar Nagar,",
+        "internet_access:fee": "yes",
+        "name": "Hotel Kings",
+        "name:pa": "ਹੋਟਲ ਕਿੰਗਸ",
+        "phone": "99886 98355",
+        "tourism": "hotel",
+        "website": "http://www.royalkingsresort.com/HotelKings.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5884268,
+          31.3157216
+        ]
+      },
+      "id": "node/5094966679"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9796242917",
+        "name:en": "Virsa Vihar",
+        "name:hi": "विरसा विहार",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5813634,
+          31.3217499
+        ]
+      },
+      "id": "node/9796242917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9796244617",
+        "name:en": "Desh Bhagat Yaadgar Hall",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5840994,
+          31.3186456
+        ]
+      },
+      "id": "node/9796244617"
+    }
+  ]
+}

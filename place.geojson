@@ -1,0 +1,88 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-03-18T18:26:03Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/559844882",
+        "alt_name:ar": "جالاندهار",
+        "alt_name:hi": "जालंधर",
+        "capital": "5",
+        "name": "Jalandhar",
+        "name:ar": "جالندهر",
+        "name:bn": "জলন্ধর",
+        "name:de": "Jalandhar",
+        "name:en": "Jalandhar",
+        "name:es": "Jalandhar",
+        "name:fa": "جلندر",
+        "name:fr": "Jalandhar",
+        "name:he": "ג'לנדהאר",
+        "name:hi": "जालन्धर",
+        "name:ja": "ジャランダル",
+        "name:kn": "ಜಲಾಂಧರ್",
+        "name:ko": "잘란다르",
+        "name:ml": "ജലന്ധർ",
+        "name:mr": "जालंधर",
+        "name:ne": "जालन्धर",
+        "name:pa": "ਜਲੰਧਰ",
+        "name:pa-Arab": "جلندھر",
+        "name:pnb": "جلندھر",
+        "name:ru": "Джаландхар",
+        "name:sat": "ᱡᱚᱞᱚᱱᱫᱷᱚᱨ",
+        "name:ta": "ஜலந்தர்",
+        "name:te": "జలంధర్",
+        "name:ur": "جالندھر",
+        "name:zh": "贾朗达尔",
+        "place": "city",
+        "place:cca": "b2",
+        "population": "903491",
+        "postal_code": "144001",
+        "wikidata": "Q33377",
+        "wikipedia": "en:Jalandhar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.576889,
+          31.3323762
+        ]
+      },
+      "id": "node/559844882"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1808674595",
+        "name": "New Jawahar Nagar",
+        "place": "locality"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5821609,
+          31.3150012
+        ]
+      },
+      "id": "node/1808674595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1821186309",
+        "name": "Avtar Nagar",
+        "place": "locality"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5670262,
+          31.318376
+        ]
+      },
+      "id": "node/1821186309"
+    }
+  ]
+}
