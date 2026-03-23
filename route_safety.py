@@ -1,48 +1,157 @@
 import joblib
 import pandas as pd
 import numpy as np
+import geopandas as gpd
+import osmnx as ox
+import networkx as nx
 
 model = joblib.load("risk_model.pkl")
-start = [31.32, 75.57]
-end = [31.35, 75.60]
-def generate_route(start, end, steps=20):
+water = gpd.read_file("water.geojson")
+hospital = gpd.read_file("hospital.geojson")
+buildings = gpd.read_file("building.geojson")
+
+cluster_df = pd.read_csv("clustered_dataset.csv")
+
+cluster_points = cluster_df[["lat", "lng"]].values
+cluster_values = cluster_df["cluster"].values
+
+def get_cluster(lat, lng):
+
+    if len(cluster_points) == 0:
+        return 0
+
+    p = np.array([lat, lng])
+
+    d = np.sqrt(
+        (cluster_points[:,0] - p[0])**2 +
+        (cluster_points[:,1] - p[1])**2
+    )
+
+    idx = np.argmin(d)
+
+    return int(cluster_values[idx])
+
+def get_points(gdf):
+
+    gdf = gdf.to_crs(epsg=3857)
+
+    centroids = gdf.geometry.centroid
+
+    centroids = gpd.GeoSeries(
+        centroids,
+        crs=3857
+    ).to_crs(4326)
+
+    gdf["lat"] = centroids.y
+    gdf["lng"] = centroids.x
+
+    return gdf[["lat","lng"]].values
+
+
+water_points = get_points(water)
+hospital_points = get_points(hospital)
+building_points = get_points(buildings)
+
+def distance(p, points):
+
+    if len(points) == 0:
+        return 0
+
+    d = np.sqrt(
+        (points[:,0] - p[0])**2 +
+        (points[:,1] - p[1])**2
+    )
+
+    return np.min(d)
+
+def density(p, points):
+
+    if len(points) == 0:
+        return 0
+
+    d = np.sqrt(
+        (points[:,0] - p[0])**2 +
+        (points[:,1] - p[1])**2
+    )
+
+    return np.sum(d < 0.01)
+
+
+print("Enter start location")
+lat1 = float(input("Start latitude: "))
+lng1 = float(input("Start longitude: "))
+
+print("Enter end location")
+lat2 = float(input("End latitude: "))
+lng2 = float(input("End longitude: "))
+
+start = [lat1, lng1]
+end = [lat2, lng2]
+
+def generate_route(start, end):
 
     lat1, lng1 = start
     lat2, lng2 = end
 
-    route = []
+    G = ox.graph_from_point(
+        (lat1, lng1),
+        dist=30000,
+        network_type="drive"
+    )
 
-    for i in range(steps):
+    orig = ox.nearest_nodes(G, lng1, lat1)
+    dest = ox.nearest_nodes(G, lng2, lat2)
 
-        lat = lat1 + (lat2 - lat1) * i / steps
-        lng = lng1 + (lng2 - lng1) * i / steps
+    route = nx.shortest_path(G, orig, dest, weight="length")
 
-        route.append([lat, lng])
+    coords = []
 
-    return route
+    for node in route:
+
+        y = G.nodes[node]["y"]
+        x = G.nodes[node]["x"]
+
+        coords.append([y, x])
+
+    return coords
 
 
 route = generate_route(start, end)
+
 def predict_risk(lat, lng):
 
     type_val = 2
-    dist_water = np.random.rand() * 0.05
-    dist_hospital = np.random.rand() * 0.05
-    cluster = np.random.randint(-1, 3)
+
+    dist_water = distance([lat,lng], water_points)
+    dist_hospital = distance([lat,lng], hospital_points)
+
+    building_density = density([lat,lng], building_points)
+
+    cluster = get_cluster(lat, lng)
 
     data = pd.DataFrame(
-        [[lat, lng, type_val, dist_water, dist_hospital, cluster]],
+        [[
+            lat,
+            lng,
+            type_val,
+            dist_water,
+            dist_hospital,
+            building_density,
+            cluster
+        ]],
         columns=[
             "lat",
             "lng",
             "type",
             "dist_water",
             "dist_hospital",
+            "building_density",
             "cluster",
         ]
     )
 
     pred = model.predict(data)[0]
+    print("point:", lat, lng, "risk:", pred)
 
     return pred
 
@@ -57,7 +166,12 @@ for p in route:
     total_risk += r
 
 print("Total route risk:", total_risk)
-end2 = [31.36, 75.65]
+print("Enter second end location")
+
+lat3 = float(input("End2 latitude: "))
+lng3 = float(input("End2 longitude: "))
+
+end2 = [lat3, lng3]
 
 route2 = generate_route(start, end2)
 
@@ -78,9 +192,16 @@ r2 = route_risk(route2)
 print("Route1:", r1)
 print("Route2:", r2)
 
+print("Route1 length:", len(route))
+print("Route2 length:", len(route2))
+
+print(route[:5])
+print(route2[:5])
+
 if r1 < r2:
     print("Route1 is safer")
 elif r2 < r1:
     print("Route2 is safer")
 else:
     print("Both routes have same risk")
+
