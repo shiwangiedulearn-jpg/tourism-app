@@ -67,27 +67,44 @@ dist_hospital = distance([lat,lng], hospital_points)
 building_density = density([lat,lng], building_points)
 
 road_type = 1   
-
-cluster = 0     
+cluster = 0 
+weather_val = 1
+hill_val = 0
+crime_val = 1
+network_val = 0
+time_val = 1    
 
 data = pd.DataFrame(
     [[
         lat,
         lng,
         type_val,
+        road_type,
         dist_water,
         dist_hospital,
         building_density,
-        cluster
+        cluster,
+        time_val,
+        weather_val,
+        hill_val,
+        crime_val,
+        network_val
+
     ]],
     columns=[
         "lat",
         "lng",
         "type",
+        "road_type",
         "dist_water",
         "dist_hospital",
         "building_density",
         "cluster",
+        "time",
+        "weather",
+        "hill",
+        "crime",
+        "network"
     ]
 )
 

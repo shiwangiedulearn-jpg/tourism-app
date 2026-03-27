@@ -13,10 +13,16 @@ X = df[
         "lat",
         "lng",
         "type",
+        "road_type",
         "dist_water",
         "dist_hospital",
         "building_density",
-        "cluster"
+        "cluster",
+        "time",
+        "weather",
+        "hill",
+        "crime",
+        "network"
     ]
 ]
 

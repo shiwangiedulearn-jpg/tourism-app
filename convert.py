@@ -127,25 +127,72 @@ gdf["building_density"] = building_density
 
 import random
 
-time_of_day = []
+from datetime import datetime
 
-for i in range(len(gdf)):
-    time_of_day.append(random.randint(0, 1))  
-    # 0 = day
-    # 1 = night
+weather = []
+hill = []
+crime_zone = []
+network = []
+time_list = []
 
-gdf["time"] = time_of_day
-gdf["risk"] = 1  
+hour = datetime.now().hour
 
-gdf.loc[gdf["dist_water"] < 0.01, "risk"] = 2
+for i, row in gdf.iterrows():
 
-gdf.loc[gdf["dist_hospital"] > 0.03, "risk"] = 2
+    # time
+    if hour > 18 or hour < 6:
+        time_list.append(1)
+    else:
+        time_list.append(0)
 
-gdf.loc[gdf["building_density"] < 3, "risk"] = 2
+    # hill → low building density = remote = hill
+    if row["building_density"] < 3:
+        hill.append(1)
+    else:
+        hill.append(0)
+
+    # weather default clear (real weather will come in runtime)
+    weather.append(0)
+
+    # crime risk
+    if row["building_density"] < 3 and time_list[-1] == 1:
+        crime_zone.append(2)
+    elif row["building_density"] < 5:
+        crime_zone.append(1)
+    else:
+        crime_zone.append(0)
+
+    # network risk
+    if row["building_density"] < 3:
+        network.append(1)
+    else:
+        network.append(0)
+
+
+gdf["weather"] = weather
+gdf["hill"] = hill
+gdf["crime"] = crime_zone
+gdf["network"] = network
+gdf["time"] = time_list
+
+
+gdf["risk"] = 0  
+
+gdf.loc[gdf["dist_water"] < 0.01, "risk"] += 1
+
+gdf.loc[gdf["dist_hospital"] > 0.03, "risk"] += 1
+
+gdf.loc[gdf["building_density"] < 3, "risk"] += 1
 
 gdf.loc[gdf["time"] == 1, "risk"] += 1
 
-gdf["risk"] = gdf["risk"].clip(0, 2)
+gdf.loc[gdf["weather"] == 2, "risk"] += 1
+
+gdf.loc[(gdf["hill"] == 1) & (gdf["weather"] > 0), "risk"] += 1
+
+gdf.loc[gdf["network"] == 1, "risk"] += 1
+
+gdf["risk"] = gdf["risk"].clip(0,2)
 
 
 
@@ -173,6 +220,10 @@ df = gdf[
         "dist_hospital",
         "building_density",
         "time",
+        "weather",
+        "hill",
+        "crime",
+        "network",
         "risk"
     ]
 ]
@@ -182,3 +233,6 @@ df = gdf[
 df.to_csv("final_dataset.csv", index=False)
 
 print("Dataset with distance created")
+
+import os
+print(os.getcwd())

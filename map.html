@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<link rel="stylesheet"
+href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+
+<script
+src="https://unpkg.com/leaflet/dist/leaflet.js">
+</script>
+
+</head>
+
+<body>
+
+<div id="map" style="height:100vh"></div>
+
+<script>
+
+var map = L.map('map').setView([31.32,75.57],12);
+
+L.tileLayer(
+'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
+).addTo(map);
+
+
+var start = null;
+var end = null;
+
+
+map.on("click", function(e){
+
+    if(start == null){
+
+        start = [e.latlng.lat, e.latlng.lng];
+
+        L.marker(start).addTo(map);
+
+    }
+
+    else if(end == null){
+
+        end = [e.latlng.lat, e.latlng.lng];
+
+        L.marker(end).addTo(map);
+
+        fetchRoute();
+
+    }
+
+});
+
+
+function fetchRoute(){
+
+fetch("http://127.0.0.1:5000/route",{
+
+    method:"POST",
+
+    headers:{
+        "Content-Type":"application/json"
+    },
+
+    body:JSON.stringify({
+        start:start,
+        end:end
+    })
+
+})
+
+.then(r=>r.json())
+
+.then(data=>{
+
+    var route = data.route;
+    var zones = data.zones;
+
+    for(let i=0;i<route.length;i++){
+
+        L.circle(route[i],{
+
+            radius:200,
+            color:zones[i],
+            fillOpacity:0.4
+
+        }).addTo(map);
+
+    }
+
+});
+
+}
+
+</script>
+
+</body>
+</html>
