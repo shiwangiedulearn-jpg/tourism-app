@@ -2,111 +2,5743 @@
   "type": "FeatureCollection",
   "generator": "overpass-turbo",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2026-03-18T18:16:00Z",
+  "timestamp": "2026-03-30T04:54:35Z",
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/318924022",
-        "name": "J C Resort",
-        "tourism": "hotel"
+        "@id": "way/146738526",
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "Bijli Mahadev Temple",
+        "religion": "hindu",
+        "tourism": "attraction"
       },
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          75.6148682,
-          31.3257081
+          [
+            [
+              77.150284,
+              31.9233591
+            ],
+            [
+              77.1502787,
+              31.923247
+            ],
+            [
+              77.1504693,
+              31.9232406
+            ],
+            [
+              77.1504745,
+              31.9233527
+            ],
+            [
+              77.150284,
+              31.9233591
+            ]
+          ]
         ]
       },
-      "id": "node/318924022"
+      "id": "way/146738526"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/477127494",
-        "name": "Ranvir Classic",
-        "tourism": "hotel"
+        "@id": "way/220718028",
+        "building": "yes",
+        "name": "Aman Lodge",
+        "tourism": "guest_house"
       },
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          75.5954101,
-          31.3521953
+          [
+            [
+              77.170493,
+              32.1159454
+            ],
+            [
+              77.1704818,
+              32.1158457
+            ],
+            [
+              77.1707315,
+              32.1158257
+            ],
+            [
+              77.1707426,
+              32.1159253
+            ],
+            [
+              77.170493,
+              32.1159454
+            ]
+          ]
         ]
       },
-      "id": "node/477127494"
+      "id": "way/220718028"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/580949661",
-        "name": "M1",
-        "tourism": "hotel"
+        "@id": "way/220718144",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Urusvati Folk & Art Museum",
+        "opening_hours": "Tu-Su 10:00-13:00, 13:30-17:00",
+        "tourism": "museum"
       },
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          75.590386,
-          31.3167714
+          [
+            [
+              77.1690927,
+              32.1157646
+            ],
+            [
+              77.1691843,
+              32.1156255
+            ],
+            [
+              77.1692739,
+              32.1156679
+            ],
+            [
+              77.1691824,
+              32.1158069
+            ],
+            [
+              77.1690927,
+              32.1157646
+            ]
+          ]
         ]
       },
-      "id": "node/580949661"
+      "id": "way/220718144"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/5094966679",
-        "addr:city": "Jalandhar",
-        "addr:postcode": "144001",
-        "addr:street": "G.T Road, Near I.S.B.T, Jawahar Nagar, New Market, Jawahar Nagar,",
+        "@id": "way/220718538",
+        "building": "yes",
+        "building:levels": "2",
+        "fee": "100 INR",
+        "name": "Roerich Museum and Art Gallery",
+        "opening_hours": "Tu-Su 10:00-13:00, 13:30-17:00",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.1675948,
+              32.116849
+            ],
+            [
+              77.1675446,
+              32.1166613
+            ],
+            [
+              77.1677382,
+              32.1166241
+            ],
+            [
+              77.1677884,
+              32.1168118
+            ],
+            [
+              77.1675948,
+              32.116849
+            ]
+          ]
+        ]
+      },
+      "id": "way/220718538"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/367951961",
+        "addr:city": "kullu",
+        "addr:housenumber": "kasol",
+        "addr:postcode": "175105",
+        "addr:street": "private road to cafe 420",
+        "building": "yes",
+        "building:levels": "3",
+        "email": "kasol@campus420goodvibesonly.com",
+        "guest_house": "guest_house",
+        "internet_access": "yes",
         "internet_access:fee": "yes",
-        "name": "Hotel Kings",
-        "name:pa": "ਹੋਟਲ ਕਿੰਗਸ",
-        "phone": "99886 98355",
+        "name": "cafe 420",
+        "operator": "honey",
+        "phone": "8847282420",
+        "reservation": "yes",
+        "tourism": "guest_house",
+        "website": "https://campus420goodvibesonly.com"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.3109464,
+              32.0099233
+            ],
+            [
+              77.3108899,
+              32.0099104
+            ],
+            [
+              77.310929,
+              32.0097871
+            ],
+            [
+              77.3110336,
+              32.0098109
+            ],
+            [
+              77.3110032,
+              32.0099067
+            ],
+            [
+              77.3109551,
+              32.0098958
+            ],
+            [
+              77.3109464,
+              32.0099233
+            ]
+          ]
+        ]
+      },
+      "id": "way/367951961"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/552837912",
+        "building": "yes",
+        "name": "Panga Monastery Students Hostel",
+        "tourism": "hostel"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.1606806,
+              32.150668
+            ],
+            [
+              77.1605758,
+              32.1506015
+            ],
+            [
+              77.1605235,
+              32.1505112
+            ],
+            [
+              77.1606226,
+              32.1504178
+            ],
+            [
+              77.1607872,
+              32.1505682
+            ],
+            [
+              77.1606806,
+              32.150668
+            ]
+          ]
+        ]
+      },
+      "id": "way/552837912"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1329579342",
+        "building": "yes",
+        "guest_house": "bed_and_breakfast",
+        "name": "Camp 360",
+        "phone": "+91 9736587471",
+        "tourism": "guest_house",
+        "website": "https://www.camp-360.in/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.8705893,
+              31.9691543
+            ],
+            [
+              76.8706376,
+              31.9690913
+            ],
+            [
+              76.8707413,
+              31.9691444
+            ],
+            [
+              76.8706975,
+              31.9692142
+            ],
+            [
+              76.8705893,
+              31.9691543
+            ]
+          ]
+        ]
+      },
+      "id": "way/1329579342"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1422855161",
+        "addr:city": "Soyal",
+        "addr:district": "Kullu",
+        "addr:postcode": "175136",
+        "addr:street": "Crystal Waterfall",
+        "building": "residential",
+        "building:levels": "2",
+        "name": "The Wilderness Lodge, VanVaas",
+        "tourism": "chalet"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2011651,
+              32.1426049
+            ],
+            [
+              77.201209,
+              32.142489
+            ],
+            [
+              77.2013075,
+              32.1425098
+            ],
+            [
+              77.2012583,
+              32.1426211
+            ],
+            [
+              77.2011651,
+              32.1426049
+            ]
+          ]
+        ]
+      },
+      "id": "way/1422855161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/540540827",
+        "name": "PWD Rest House, Jhatingri",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.8823861,
+          31.9486013
+        ]
+      },
+      "id": "node/540540827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/540553653",
+        "name": "Bhubhu Camp Site",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.976884,
+          31.9490861
+        ]
+      },
+      "id": "node/540553653"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/540556208",
+        "name": "PWD Rest House Kadaun",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0158211,
+          31.973738
+        ]
+      },
+      "id": "node/540556208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/540560516",
+        "name": "Pheti Goth",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0338795,
+          32.0279996
+        ]
+      },
+      "id": "node/540560516"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/699778600",
+        "name": "Baghnar",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.8373612,
+          32.0984517
+        ]
+      },
+      "id": "node/699778600"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/699782175",
+        "name": "Forest Rest House, Swarh",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.852888,
+          32.0855959
+        ]
+      },
+      "id": "node/699782175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/699789516",
+        "name": "Dhaniara",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.8977407,
+          32.0731367
+        ]
+      },
+      "id": "node/699789516"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/699794616",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9038484,
+          32.0725281
+        ]
+      },
+      "id": "node/699794616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/699794696",
+        "name": "Burshu",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9136727,
+          32.0741949
+        ]
+      },
+      "id": "node/699794696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/699794751",
+        "name": "Juara",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9208851,
+          32.0775513
+        ]
+      },
+      "id": "node/699794751"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/699800578",
+        "name": "Gorudhugh",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9802087,
+          32.0710507
+        ]
+      },
+      "id": "node/699800578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/699804196",
+        "name": "Nihar Thach",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.99276,
+          32.0492426
+        ]
+      },
+      "id": "node/699804196"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/773552652",
+        "name": "Thakur Cottage",
+        "tourism": "hostel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.319238,
+          32.01074
+        ]
+      },
+      "id": "node/773552652"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/806250401",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.319725,
+          32.1884486
+        ]
+      },
+      "id": "node/806250401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/806250416",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3149311,
+          32.189703
+        ]
+      },
+      "id": "node/806250416"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/806250442",
+        "name": "Seri",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3322466,
+          32.1826274
+        ]
+      },
+      "id": "node/806250442"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/806252562",
+        "name": "Sarthak Resorts",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1942946,
+          32.1792516
+        ]
+      },
+      "id": "node/806252562"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/806257005",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2805755,
+          32.1988722
+        ]
+      },
+      "id": "node/806257005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/806257006",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.35032,
+          32.1790284
+        ]
+      },
+      "id": "node/806257006"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/847677652",
+        "name": "Forest Rest House, Multhan",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.8405493,
+          32.0439952
+        ]
+      },
+      "id": "node/847677652"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/848343966",
+        "name": "Devi ki Marhi II",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9928522,
+          32.2238894
+        ]
+      },
+      "id": "node/848343966"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/848343982",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9789239,
+          32.2232175
+        ]
+      },
+      "id": "node/848343982"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/848344047",
+        "name": "Garhthala",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9435853,
+          32.2371566
+        ]
+      },
+      "id": "node/848344047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/848344125",
+        "name": "Devi ki Marhi",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9715162,
+          32.2220629
+        ]
+      },
+      "id": "node/848344125"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/848372918",
+        "name": "Sanghor (Theli)",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0709637,
+          32.21185
+        ]
+      },
+      "id": "node/848372918"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/848373076",
+        "addr:street": "Sanghor (Theli) Riyali Thach trail",
+        "ele": "3483",
+        "name": "Riyali Thach Shepherd Hut",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0996858,
+          32.204433
+        ]
+      },
+      "id": "node/848373076"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/848373191",
+        "addr:street": "Sanghor (Theli) Riyali Thach trail",
+        "name": "Riyali Thach",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0995607,
+          32.2044642
+        ]
+      },
+      "id": "node/848373191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/861687589",
+        "historic": "castle",
+        "name": "Naggar Castle",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1646408,
+          32.1119902
+        ]
+      },
+      "id": "node/861687589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/971639445",
+        "internet_access": "no",
+        "name": "Hotel Hilltop",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.8488984,
+          31.9730577
+        ]
+      },
+      "id": "node/971639445"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1186171837",
+        "amenity": "place_of_worship",
+        "name": "Sacred trees",
+        "religion": "hindu",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1795394,
+          32.1156598
+        ]
+      },
+      "id": "node/1186171837"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2386691312",
+        "name": "Flight View",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.151168,
+          31.8798115
+        ]
+      },
+      "id": "node/2386691312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3105264104",
+        "name": "Shubham",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1345723,
+          32.0972384
+        ]
+      },
+      "id": "node/3105264104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3152806595",
+        "name": "Guesthouse",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.165195,
+          32.1124727
+        ]
+      },
+      "id": "node/3152806595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3152806596",
+        "name": "Guesthouse",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1651575,
+          32.1122683
+        ]
+      },
+      "id": "node/3152806596"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3154220890",
+        "name": "Guesthouse",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2581655,
+          32.060737
+        ]
+      },
+      "id": "node/3154220890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3154245651",
+        "name": "Guesthouse",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2447183,
+          32.0050721
+        ]
+      },
+      "id": "node/3154245651"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3542912881",
+        "addr:city": "Kullu",
+        "addr:postcode": "175101",
+        "addr:street": "Dhalpur",
+        "name": "Hotel Shobla International",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1099056,
+          31.9593092
+        ]
+      },
+      "id": "node/3542912881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3546358385",
+        "name": "Hotel Sandhya Palace",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1413077,
+          31.8905091
+        ]
+      },
+      "id": "node/3546358385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3546358386",
+        "name": "JJ Resort",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1410455,
+          31.8903295
+        ]
+      },
+      "id": "node/3546358386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3549555106",
+        "name": "Hotel Malabar",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1547837,
+          31.9066841
+        ]
+      },
+      "id": "node/3549555106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3794360737",
+        "name": "Base Camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3698247,
+          32.1750938
+        ]
+      },
+      "id": "node/3794360737"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4178423256",
+        "name": "kasol you",
+        "tourism": "hostel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2960848,
+          32.0107263
+        ]
+      },
+      "id": "node/4178423256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4248540620",
+        "addr:street": "kasol next to water spring",
+        "internet_access": "wlan",
+        "name": "Royal Orchard",
+        "opening_hours": "24/7",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3180946,
+          32.012042
+        ]
+      },
+      "id": "node/4248540620"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4252370490",
+        "name": "Hotel Amit",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1485465,
+          31.8838009
+        ]
+      },
+      "id": "node/4252370490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4256565300",
+        "name": "Pause@Manali",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1831718,
+          32.226583
+        ]
+      },
+      "id": "node/4256565300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4273402791",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1504571,
+          31.9229838
+        ]
+      },
+      "id": "node/4273402791"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4297670102",
+        "name": "Chiklani",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2127471,
+          32.0672555
+        ]
+      },
+      "id": "node/4297670102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4297670103",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2544981,
+          32.0609674
+        ]
+      },
+      "id": "node/4297670103"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4297684394",
+        "name": "Camping site",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2261614,
+          32.0651739
+        ]
+      },
+      "id": "node/4297684394"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4297750089",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2284074,
+          32.0613565
+        ]
+      },
+      "id": "node/4297750089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4297750289",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2518946,
+          32.0633016
+        ]
+      },
+      "id": "node/4297750289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4421619190",
+        "access": "customers",
+        "name": "Om Himalayan",
+        "name:en": "Om Himalayan",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3081037,
+          32.01009
+        ]
+      },
+      "id": "node/4421619190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4513390691",
+        "addr:postcode": "175128",
+        "addr:street": "Bhargava House Shirar",
+        "name": "Bhargava House",
+        "name:en": "Bhargava House",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1257106,
+          32.0678734
+        ]
+      },
+      "id": "node/4513390691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4724054191",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.312956,
+          32.009101
+        ]
+      },
+      "id": "node/4724054191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4848537622",
+        "name": "Shiela's Homestay",
+        "name:en": "Shiela's Homestay",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2510101,
+          31.9965864
+        ]
+      },
+      "id": "node/4848537622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5059843824",
+        "name": "Kullu park",
+        "name:en": "Kullu park",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1253353,
+          31.9170872
+        ]
+      },
+      "id": "node/5059843824"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5059844023",
+        "name": "Mrinal guest house",
+        "name:en": "Mrinal guest house",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1106831,
+          31.9612647
+        ]
+      },
+      "id": "node/5059844023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5139643222",
+        "name": "Cosmos",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3109386,
+          32.0114696
+        ]
+      },
+      "id": "node/5139643222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5153017921",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.149411,
+          31.882638
+        ]
+      },
+      "id": "node/5153017921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5156228121",
+        "name": "Lamadugh",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1469822,
+          32.2363958
+        ]
+      },
+      "id": "node/5156228121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5259155522",
+        "name": "Hotal Royal Palace",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3331235,
+          32.0193971
+        ]
+      },
+      "id": "node/5259155522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5259159121",
+        "name": "Nom DS Hostel",
+        "tourism": "hostel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3273597,
+          32.0175242
+        ]
+      },
+      "id": "node/5259159121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5264837128",
+        "name": "Himalayan Heritage Home",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2722841,
+          32.0675475
+        ]
+      },
+      "id": "node/5264837128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5264837130",
+        "name": "Oh Magic View",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3123945,
+          32.0124971
+        ]
+      },
+      "id": "node/5264837130"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5268312521",
+        "addr:housenumber": "99",
+        "addr:postcode": "175101",
+        "addr:street": "Chowki",
+        "name": "Care Himalaya Home",
+        "opening_hours": "24/7",
+        "phone": "9418033699",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1176779,
+          31.9620274
+        ]
+      },
+      "id": "node/5268312521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5271889525",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1495517,
+          31.9263677
+        ]
+      },
+      "id": "node/5271889525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5271889526",
+        "name": "View of valleys",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.150075,
+          31.9262464
+        ]
+      },
+      "id": "node/5271889526"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5271905121",
+        "name": "Lower Kullu Valley viewpoint",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1501968,
+          31.9228255
+        ]
+      },
+      "id": "node/5271905121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5271905221",
+        "name": "Parvati valley view",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1502575,
+          31.9255258
+        ]
+      },
+      "id": "node/5271905221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5372679021",
+        "addr:postcode": "175101",
+        "email": "kulluadventurman@gmail.com",
+        "internet_access": "wlan",
+        "name": "iHimalaya home stay",
+        "name:ru": "Гималая семейный дом",
+        "opening_hours": "24/7",
+        "operator": "Baba Benny",
+        "phone": "+9198165-85808",
+        "tourism": "guest_house",
+        "website": "http://ihindia.in"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1540892,
+          32.0432026
+        ]
+      },
+      "id": "node/5372679021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5586157621",
+        "name": "Snow View Guesthouse",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1082217,
+          31.9571021
+        ]
+      },
+      "id": "node/5586157621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5629245921",
+        "name": "קטגלה רינההה",
+        "tourism": "apartment"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.311442,
+          32.0100322
+        ]
+      },
+      "id": "node/5629245921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5629245922",
+        "name": "קטגלה רינה",
+        "tourism": "apartment"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2918513,
+          32.010012
+        ]
+      },
+      "id": "node/5629245922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5650264492",
+        "addr:street": "Jari, הימאצ'אל פרדש 175105, הודו",
+        "name": "Metora",
+        "name:en": "Metora",
+        "name:he": "מטאורה",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2542376,
+          32.0011686
+        ]
+      },
+      "id": "node/5650264492"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5776966753",
+        "name": "Malana View",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2607944,
+          32.0634286
+        ]
+      },
+      "id": "node/5776966753"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5776966853",
+        "name": "guest house",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2929842,
+          32.0318241
+        ]
+      },
+      "id": "node/5776966853"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5813963060",
+        "name": "hill creast",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3187097,
+          32.0105954
+        ]
+      },
+      "id": "node/5813963060"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5813963061",
+        "name": "Ghan Shyam’s place - hotel restaurant",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3468489,
+          31.9718556
+        ]
+      },
+      "id": "node/5813963061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5813963156",
+        "name": "Ghan Shyam’s place",
+        "name:en": "Ghan Shyam’s place - hotel restaurant",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3482238,
+          31.9719863
+        ]
+      },
+      "id": "node/5813963156"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5920709985",
+        "name": "village guest house",
+        "name:hi": "Village Guest House",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.251232,
+          31.998913
+        ]
+      },
+      "id": "node/5920709985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5947986385",
+        "name": "Homestay Tulja",
+        "name:en": "Homestay in thunja",
+        "tourism": "hostel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3500055,
+          31.9687995
+        ]
+      },
+      "id": "node/5947986385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6012223986",
+        "name": "Whoopers Hostel",
+        "tourism": "hostel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2923615,
+          32.0100048
+        ]
+      },
+      "id": "node/6012223986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6027649485",
+        "name": "Memoir Homes & Café",
+        "tourism": "hostel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3150708,
+          32.0085864
+        ]
+      },
+      "id": "node/6027649485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6070124789",
+        "name": "Mannat home stay",
+        "phone": "9816076229",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2451161,
+          31.9966463
+        ]
+      },
+      "id": "node/6070124789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6265124286",
+        "name": "шуру",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2021779,
+          32.2136093
+        ]
+      },
+      "id": "node/6265124286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6265124287",
+        "name": "satihouse",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.202241,
+          32.208431
+        ]
+      },
+      "id": "node/6265124287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6395428685",
+        "name": "The Hosteller",
+        "tourism": "hostel",
+        "website": "https://www.thehosteller.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3128346,
+          32.0084355
+        ]
+      },
+      "id": "node/6395428685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6401778711",
+        "internet_access": "wlan",
+        "name": "The Open Road Camp",
+        "operator": "Sam & Bodhi",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1922071,
+          32.2098269
+        ]
+      },
+      "id": "node/6401778711"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6402029686",
+        "name": "Soroutoo Camping Site",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2345949,
+          32.2120975
+        ]
+      },
+      "id": "node/6402029686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6402062985",
+        "name": "Tilgan Camping Site",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2140045,
+          32.2045196
+        ]
+      },
+      "id": "node/6402062985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6497599599",
+        "name": "OYO 39401 River West Cottage",
+        "phone": "+91 93139 31393",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1426893,
+          31.8717077
+        ]
+      },
+      "id": "node/6497599599"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6521222785",
+        "name": "Apple Farm stay",
+        "phone": "9805559570",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1813909,
+          32.1096735
+        ]
+      },
+      "id": "node/6521222785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6583208185",
+        "addr:postcode": "175136",
+        "addr:street": "Soil Valley. Manali. Himachal Pradesh.  India",
+        "email": "ruahnavadim@gmail.com",
+        "name": "Ruah Navadim Hostel and Cafe",
+        "opening_hours": "Mo-Su 10:00-22:30",
+        "phone": "+918278761961",
+        "tourism": "hostel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1891466,
+          32.1462804
+        ]
+      },
+      "id": "node/6583208185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6584239887",
+        "name": "Shiva Garden Dhaba",
+        "phone": "+91 7590028371",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3005125,
+          32.013602
+        ]
+      },
+      "id": "node/6584239887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6594934590",
+        "addr:street": "Katagla-Rashol path",
+        "internet_access": "wlan",
+        "name": "Sim Sim",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2983576,
+          32.0121827
+        ]
+      },
+      "id": "node/6594934590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6594934686",
+        "addr:postcode": "175143",
+        "addr:street": "Hampta Pass Trek",
+        "email": "travelosic@gmail.com",
+        "internet_access": "wlan",
+        "name": "Travelosic Forest Campsite",
+        "opening_hours": "24/7",
+        "operator": "Travelosic",
+        "phone": "7014539969",
+        "tourism": "camp_site",
+        "website": "http://Travelosic.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2146335,
+          32.2046385
+        ]
+      },
+      "id": "node/6594934686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6609146986",
+        "name": "Chandar place",
+        "name:he": "המקום של צ'אנדר",
+        "operator": "chandar",
+        "phone": "+918219253419",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3169152,
+          32.0103462
+        ]
+      },
+      "id": "node/6609146986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6644197637",
+        "man_made": "bridge",
+        "name": "Choj bridge",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3282911,
+          32.01683
+        ]
+      },
+      "id": "node/6644197637"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6644313587",
+        "internet_access": "wlan",
+        "name": "Nomads hostel",
+        "opening_hours": "24/7",
+        "phone": "780790245",
+        "tourism": "hostel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3273867,
+          32.0174978
+        ]
+      },
+      "id": "node/6644313587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6711300585",
+        "name": "Shanti palace home stay",
+        "name:en": "Fool moon best view",
+        "operator": "Bhoom",
+        "phone": "+919876416637",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3493426,
+          31.9716701
+        ]
+      },
+      "id": "node/6711300585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6766145987",
+        "internet_access": "wlan",
+        "name": "Green view guest house",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3169308,
+          32.009229
+        ]
+      },
+      "id": "node/6766145987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6766260262",
+        "name": "Narang Town",
+        "name:en": "Narang",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2606534,
+          32.0512949
+        ]
+      },
+      "id": "node/6766260262"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6782059043",
+        "name": "Himachal Pradesh Public Works Department Guest House",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.8421247,
+          32.0388734
+        ]
+      },
+      "id": "node/6782059043"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6790342505",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.8702241,
+          32.170723
+        ]
+      },
+      "id": "node/6790342505"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6894582885",
+        "addr:street": "chowki",
+        "name": "Kartik Homestay",
+        "operator": "Very chill place",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2424209,
+          32.0046662
+        ]
+      },
+      "id": "node/6894582885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6904776803",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1445048,
+          32.2301895
+        ]
+      },
+      "id": "node/6904776803"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7209801685",
+        "name": "The Lost tribe camp",
+        "name:es": "The lost tribe camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2149227,
+          32.2046026
+        ]
+      },
+      "id": "node/7209801685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8583888831",
+        "name": "Hotel Sandhya, Kasol",
         "tourism": "hotel",
-        "website": "http://www.royalkingsresort.com/HotelKings.html"
+        "website": "https://www.sandhyahotels.in/contact-us"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          75.5884268,
-          31.3157216
+          77.3191074,
+          32.0115931
         ]
       },
-      "id": "node/5094966679"
+      "id": "node/8583888831"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/9796242917",
-        "name:en": "Virsa Vihar",
-        "name:hi": "विरसा विहार",
-        "tourism": "museum"
+        "@id": "node/8632201675",
+        "name": "Kuphri Thach",
+        "tourism": "camp_site"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          75.5813634,
-          31.3217499
+          77.1032551,
+          32.0519851
         ]
       },
-      "id": "node/9796242917"
+      "id": "node/8632201675"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/9796244617",
-        "name:en": "Desh Bhagat Yaadgar Hall",
-        "tourism": "museum"
+        "@id": "node/8870128170",
+        "tourism": "camp_site"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          75.5840994,
-          31.3186456
+          77.1739088,
+          32.2120733
         ]
       },
-      "id": "node/9796244617"
+      "id": "node/8870128170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8870147328",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1731831,
+          32.206727
+        ]
+      },
+      "id": "node/8870147328"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8870157696",
+        "name": "Bran phatta Viewpoint",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1698655,
+          32.1843922
+        ]
+      },
+      "id": "node/8870157696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8903520386",
+        "name": "Shepherd's camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.157894,
+          32.2309924
+        ]
+      },
+      "id": "node/8903520386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8903540848",
+        "name": "Kanyal top boulder",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.168316,
+          32.227623
+        ]
+      },
+      "id": "node/8903540848"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8903546791",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1557333,
+          32.2312293
+        ]
+      },
+      "id": "node/8903546791"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8904798743",
+        "name": "Joling Thach",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0731476,
+          32.1475883
+        ]
+      },
+      "id": "node/8904798743"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8904804270",
+        "name": "Pan Thach",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0703632,
+          32.1748233
+        ]
+      },
+      "id": "node/8904804270"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8904822741",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0811773,
+          32.1587394
+        ]
+      },
+      "id": "node/8904822741"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8904825982",
+        "name": "Rup Thach",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0742901,
+          32.1529057
+        ]
+      },
+      "id": "node/8904825982"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9117088986",
+        "name": "Malana Magic",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2793548,
+          32.0858651
+        ]
+      },
+      "id": "node/9117088986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9117093313",
+        "name": "Capmsite",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2455833,
+          32.0704987
+        ]
+      },
+      "id": "node/9117093313"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9117096741",
+        "name": "Manduki",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1963244,
+          32.0864661
+        ]
+      },
+      "id": "node/9117096741"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9117096742",
+        "name": "Shepherd camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3371594,
+          32.1245987
+        ]
+      },
+      "id": "node/9117096742"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9117096743",
+        "name": "Shepherd camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3798317,
+          32.1365794
+        ]
+      },
+      "id": "node/9117096743"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9117099377",
+        "name": "Shepherd camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3771891,
+          32.1324145
+        ]
+      },
+      "id": "node/9117099377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9117100640",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2073254,
+          32.077902
+        ]
+      },
+      "id": "node/9117100640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9117100641",
+        "name": "Shepherd camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2798751,
+          32.1122635
+        ]
+      },
+      "id": "node/9117100641"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9117102311",
+        "name": "Shepherd camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2535148,
+          32.0848142
+        ]
+      },
+      "id": "node/9117102311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9117103493",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3442858,
+          32.1223685
+        ]
+      },
+      "id": "node/9117103493"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9117103494",
+        "name": "Shepherd camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3464081,
+          32.1117961
+        ]
+      },
+      "id": "node/9117103494"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9117104714",
+        "name": "Shepherd camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2625951,
+          32.1083032
+        ]
+      },
+      "id": "node/9117104714"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9117104715",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3137425,
+          32.1066918
+        ]
+      },
+      "id": "node/9117104715"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9117104716",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2745142,
+          32.0476345
+        ]
+      },
+      "id": "node/9117104716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9117107322",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3018264,
+          32.1028202
+        ]
+      },
+      "id": "node/9117107322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9117110505",
+        "name": "Shepherd camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3143365,
+          32.12266
+        ]
+      },
+      "id": "node/9117110505"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9117112775",
+        "name": "Rock cave",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3078821,
+          32.0373093
+        ]
+      },
+      "id": "node/9117112775"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9117118529",
+        "name": "Shepherd shelter",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3250805,
+          32.1227786
+        ]
+      },
+      "id": "node/9117118529"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9117118530",
+        "name": "Open shelter",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3697162,
+          32.1318958
+        ]
+      },
+      "id": "node/9117118530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9117118531",
+        "name": "Shepherd camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2932111,
+          32.049683
+        ]
+      },
+      "id": "node/9117118531"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9117118817",
+        "name": "Shepherd camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.257327,
+          32.0981461
+        ]
+      },
+      "id": "node/9117118817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9158301270",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3589998,
+          31.9156067
+        ]
+      },
+      "id": "node/9158301270"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9158301271",
+        "name": "Forest rest house",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1647582,
+          32.0008882
+        ]
+      },
+      "id": "node/9158301271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9158312986",
+        "name": "Cave shelter",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.360038,
+          31.9219763
+        ]
+      },
+      "id": "node/9158312986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9158313207",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3585863,
+          31.9385999
+        ]
+      },
+      "id": "node/9158313207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9158319184",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3616207,
+          31.9256481
+        ]
+      },
+      "id": "node/9158319184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9158340686",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3577529,
+          31.9077458
+        ]
+      },
+      "id": "node/9158340686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9192745011",
+        "name": "Shepherd camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9911225,
+          32.1028337
+        ]
+      },
+      "id": "node/9192745011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9192749976",
+        "name": "Shepherd camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0173207,
+          32.1091979
+        ]
+      },
+      "id": "node/9192749976"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9207702743",
+        "name": "Shepherd camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9697066,
+          31.9949865
+        ]
+      },
+      "id": "node/9207702743"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9207718062",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.936656,
+          32.0219178
+        ]
+      },
+      "id": "node/9207718062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9207765111",
+        "name": "Shepherd camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9777392,
+          31.9728842
+        ]
+      },
+      "id": "node/9207765111"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9207767456",
+        "name": "Speherd camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9867046,
+          31.9679897
+        ]
+      },
+      "id": "node/9207767456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9207778315",
+        "name": "Shepherds camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9738618,
+          31.9836297
+        ]
+      },
+      "id": "node/9207778315"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9207778524",
+        "name": "Shepherd camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0129892,
+          31.9298041
+        ]
+      },
+      "id": "node/9207778524"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9207780581",
+        "name": "Shepherd camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9741359,
+          31.9812229
+        ]
+      },
+      "id": "node/9207780581"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9215516881",
+        "name": "Shepherd's camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9772404,
+          31.996454
+        ]
+      },
+      "id": "node/9215516881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9215522455",
+        "name": "Shepherd's camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9488997,
+          32.0085931
+        ]
+      },
+      "id": "node/9215522455"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9215549259",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.939351,
+          32.0006832
+        ]
+      },
+      "id": "node/9215549259"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9215556029",
+        "name": "Shepherd's camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9891877,
+          31.9917588
+        ]
+      },
+      "id": "node/9215556029"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9215557472",
+        "name": "Shepherd's camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9807397,
+          31.9932674
+        ]
+      },
+      "id": "node/9215557472"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9215559463",
+        "name": "Shepherd's camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9775965,
+          31.9989854
+        ]
+      },
+      "id": "node/9215559463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9215559917",
+        "name": "Shepherd's camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9918733,
+          31.9893249
+        ]
+      },
+      "id": "node/9215559917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9220769470",
+        "name": "Shepherd camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0438956,
+          31.8768605
+        ]
+      },
+      "id": "node/9220769470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9220789202",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0504962,
+          31.8865657
+        ]
+      },
+      "id": "node/9220789202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9220817360",
+        "name": "Shepherd camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0340086,
+          31.8772103
+        ]
+      },
+      "id": "node/9220817360"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9231733145",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1937219,
+          32.0947121
+        ]
+      },
+      "id": "node/9231733145"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9235455500",
+        "name": "Shepherd's camp",
+        "tourism": "camp_pitch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3015287,
+          32.0444534
+        ]
+      },
+      "id": "node/9235455500"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9235516792",
+        "name": "Shepherd's camp",
+        "tourism": "camp_pitch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3044206,
+          32.0432508
+        ]
+      },
+      "id": "node/9235516792"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9235518299",
+        "name": "Shepherd's camp",
+        "tourism": "camp_pitch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3116164,
+          32.0420154
+        ]
+      },
+      "id": "node/9235518299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9235518300",
+        "name": "Shepherd's camp",
+        "tourism": "camp_pitch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3028905,
+          32.0453946
+        ]
+      },
+      "id": "node/9235518300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9235522206",
+        "name": "Shepherd's camp",
+        "tourism": "camp_pitch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3054669,
+          32.0417928
+        ]
+      },
+      "id": "node/9235522206"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9235526962",
+        "name": "Shepherd's camp",
+        "tourism": "camp_pitch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3071828,
+          32.0421212
+        ]
+      },
+      "id": "node/9235526962"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9235542883",
+        "name": "Shepherd's camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3013908,
+          32.044951
+        ]
+      },
+      "id": "node/9235542883"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9260937207",
+        "name": "Shepherd's camp",
+        "tourism": "camp_pitch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9652999,
+          32.0619332
+        ]
+      },
+      "id": "node/9260937207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9260943380",
+        "name": "Shepherd's",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9808813,
+          32.0518057
+        ]
+      },
+      "id": "node/9260943380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9260944672",
+        "name": "Shepherd's camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.939174,
+          32.0757707
+        ]
+      },
+      "id": "node/9260944672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9260950049",
+        "name": "Shepherd's camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0436256,
+          32.0349766
+        ]
+      },
+      "id": "node/9260950049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9260950356",
+        "name": "Shepherd's camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9774699,
+          32.0557555
+        ]
+      },
+      "id": "node/9260950356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9260950634",
+        "name": "Shepherd's camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0510653,
+          32.0511607
+        ]
+      },
+      "id": "node/9260950634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9260954396",
+        "name": "Shepherd's camp",
+        "tourism": "camp_pitch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9573024,
+          32.0699526
+        ]
+      },
+      "id": "node/9260954396"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9260961550",
+        "name": "Shepherd's camp",
+        "tourism": "camp_pitch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9390208,
+          32.0765957
+        ]
+      },
+      "id": "node/9260961550"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9260963632",
+        "name": "Shepherd's camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9806255,
+          32.0491029
+        ]
+      },
+      "id": "node/9260963632"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9269871986",
+        "name": "Shepherd's camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2089184,
+          32.0542769
+        ]
+      },
+      "id": "node/9269871986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9269880856",
+        "name": "Shepherd's camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1907957,
+          32.0144379
+        ]
+      },
+      "id": "node/9269880856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9269881563",
+        "name": "Shepherd's camp",
+        "tourism": "camp_pitch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2149916,
+          32.0585609
+        ]
+      },
+      "id": "node/9269881563"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9269881564",
+        "name": "Shepherd's camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2081939,
+          32.0483561
+        ]
+      },
+      "id": "node/9269881564"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9269887909",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1947511,
+          32.0238919
+        ]
+      },
+      "id": "node/9269887909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9269898664",
+        "name": "Shepherd's camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1638927,
+          31.9692021
+        ]
+      },
+      "id": "node/9269898664"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9269901034",
+        "name": "Shepherd's camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1711413,
+          31.9832343
+        ]
+      },
+      "id": "node/9269901034"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9269903112",
+        "name": "Shepherd's camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2004994,
+          32.0829245
+        ]
+      },
+      "id": "node/9269903112"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9269903113",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2027287,
+          32.0432175
+        ]
+      },
+      "id": "node/9269903113"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9269903114",
+        "name": "Shepherd's camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1655788,
+          31.9731041
+        ]
+      },
+      "id": "node/9269903114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9274955601",
+        "name": "Shepherd's camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0555403,
+          31.9365593
+        ]
+      },
+      "id": "node/9274955601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9274996043",
+        "name": "Shepherd's camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0883307,
+          32.0151165
+        ]
+      },
+      "id": "node/9274996043"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9274996763",
+        "name": "Shepherd's camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0483741,
+          32.0032419
+        ]
+      },
+      "id": "node/9274996763"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9275012340",
+        "name": "Shepherd's camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0903241,
+          32.0128748
+        ]
+      },
+      "id": "node/9275012340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9331669633",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1137265,
+          32.1102643
+        ]
+      },
+      "id": "node/9331669633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9360430139",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1784673,
+          32.2077027
+        ]
+      },
+      "id": "node/9360430139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9360451340",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1718063,
+          32.2104564
+        ]
+      },
+      "id": "node/9360451340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9428323292",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1437568,
+          32.1764098
+        ]
+      },
+      "id": "node/9428323292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9428323389",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.146406,
+          32.181711
+        ]
+      },
+      "id": "node/9428323389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9513752644",
+        "access": "yes",
+        "addr:city": "Kullu",
+        "addr:housenumber": "Suma Ropa",
+        "addr:postcode": "175105",
+        "addr:street": "Bhuntar Manikaran Highway",
+        "capacity:persons": "100",
+        "fee": "yes",
+        "name": "Parvati Woods Camp Kasol",
+        "operator": "Earthly Stays",
+        "payment:cash": "yes",
+        "payment:debit_cards": "yes",
+        "payment:electronic_purses": "yes",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2873252,
+          32.0067142
+        ]
+      },
+      "id": "node/9513752644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9521410474",
+        "name": "Friendship peak Viewpoint",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2022897,
+          32.2047402
+        ]
+      },
+      "id": "node/9521410474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9682706844",
+        "name": "Shepherd's camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2138272,
+          32.1831162
+        ]
+      },
+      "id": "node/9682706844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9682744270",
+        "name": "Shepherd's camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2242306,
+          32.1807518
+        ]
+      },
+      "id": "node/9682744270"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9682751654",
+        "name": "Shepherd's camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2097107,
+          32.1869584
+        ]
+      },
+      "id": "node/9682751654"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9730227026",
+        "name": "Shepherd's camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2331506,
+          32.1773833
+        ]
+      },
+      "id": "node/9730227026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9773355036",
+        "addr:city": "kullu",
+        "addr:housenumber": "kasol",
+        "addr:postcode": "175105",
+        "addr:street": "private road to cafe 420",
+        "email": "alpskasol@gmail.com",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "The Alps Kasol",
+        "operator": "bunty",
+        "phone": "9888686686",
+        "reservation": "yes",
+        "tourism": "camp_site",
+        "website": "https://www.kasolthealps.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3108404,
+          32.0098571
+        ]
+      },
+      "id": "node/9773355036"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9795007616",
+        "name": "Shepherds camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2408431,
+          32.1758068
+        ]
+      },
+      "id": "node/9795007616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9944448917",
+        "name": "Zostel Dobhi",
+        "tourism": "hostel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1154621,
+          32.0955509
+        ]
+      },
+      "id": "node/9944448917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9950684537",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1486594,
+          32.2351317
+        ]
+      },
+      "id": "node/9950684537"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10053202827",
+        "fee": "yes",
+        "name": "Mahadev River View Camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3037393,
+          32.0122001
+        ]
+      },
+      "id": "node/10053202827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10053356956",
+        "name": "Hotel The White House",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2941707,
+          32.0101908
+        ]
+      },
+      "id": "node/10053356956"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10053382810",
+        "name": "Perkup",
+        "tourism": "hostel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2920978,
+          32.0100818
+        ]
+      },
+      "id": "node/10053382810"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10053386651",
+        "name": "All Terrain Stay",
+        "tourism": "hostel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2934103,
+          32.0101665
+        ]
+      },
+      "id": "node/10053386651"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10053947744",
+        "name": "Fusion Guest House",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3009154,
+          32.013238
+        ]
+      },
+      "id": "node/10053947744"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10055956531",
+        "name": "Value View Kasol",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3165269,
+          32.0102157
+        ]
+      },
+      "id": "node/10055956531"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10097962117",
+        "name": "Dhi Ananta",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3127554,
+          32.0095438
+        ]
+      },
+      "id": "node/10097962117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10102583900",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1037958,
+          32.2026764
+        ]
+      },
+      "id": "node/10102583900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10102588520",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1448584,
+          32.1809352
+        ]
+      },
+      "id": "node/10102588520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10102591106",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.096137,
+          32.2093732
+        ]
+      },
+      "id": "node/10102591106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10106086325",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0687405,
+          32.0152697
+        ]
+      },
+      "id": "node/10106086325"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10148849454",
+        "name": "Dhauladhar Viewpoint",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2393416,
+          32.2340215
+        ]
+      },
+      "id": "node/10148849454"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10148851885",
+        "name": "Shepherds' camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2387068,
+          32.2342001
+        ]
+      },
+      "id": "node/10148851885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10673915130",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1334487,
+          32.166599
+        ]
+      },
+      "id": "node/10673915130"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10677686536",
+        "name": "Shepher campsite",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9486874,
+          32.1810655
+        ]
+      },
+      "id": "node/10677686536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10678177631",
+        "name": "Manalsu valley viewpoint",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0539427,
+          32.2251727
+        ]
+      },
+      "id": "node/10678177631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10680247265",
+        "name": "Shepher campsite",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.923539,
+          32.0340146
+        ]
+      },
+      "id": "node/10680247265"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10727395191",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1140295,
+          32.1027787
+        ]
+      },
+      "id": "node/10727395191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10727450033",
+        "name": "Phojal Valley viewpoint",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1125798,
+          32.1057765
+        ]
+      },
+      "id": "node/10727450033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10792589916",
+        "description": "Kullu Valley viewpoint",
+        "name": "Mahili",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1460293,
+          32.1851854
+        ]
+      },
+      "id": "node/10792589916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10792591608",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.079545,
+          32.0086187
+        ]
+      },
+      "id": "node/10792591608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10792591609",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1106994,
+          32.0760179
+        ]
+      },
+      "id": "node/10792591609"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10840861845",
+        "description": "A perfect getaway for people seeking a peaceful stay with wonderful views.",
+        "name": "Nature Villa Homestay",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.132769,
+          32.0933926
+        ]
+      },
+      "id": "node/10840861845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10883143801",
+        "name": "Shepherd's camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1755562,
+          32.2008778
+        ]
+      },
+      "id": "node/10883143801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10910545412",
+        "name": "Monal",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1787827,
+          32.1961762
+        ]
+      },
+      "id": "node/10910545412"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10929143497",
+        "name": "Shepherd camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1624756,
+          32.2089022
+        ]
+      },
+      "id": "node/10929143497"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10931465175",
+        "name": "Shepherd camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1546471,
+          32.1945955
+        ]
+      },
+      "id": "node/10931465175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10931511258",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1536149,
+          32.1846305
+        ]
+      },
+      "id": "node/10931511258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10931512812",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1609152,
+          32.1954123
+        ]
+      },
+      "id": "node/10931512812"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10931516171",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1743378,
+          32.2166645
+        ]
+      },
+      "id": "node/10931516171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10931522946",
+        "name": "Shepherd camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1689625,
+          32.2031789
+        ]
+      },
+      "id": "node/10931522946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10931522947",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1521082,
+          32.1858423
+        ]
+      },
+      "id": "node/10931522947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10931523352",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1806627,
+          32.2114163
+        ]
+      },
+      "id": "node/10931523352"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10931523907",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1641048,
+          32.1956187
+        ]
+      },
+      "id": "node/10931523907"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10931524023",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1754636,
+          32.1885848
+        ]
+      },
+      "id": "node/10931524023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10931524429",
+        "name": "Kullu valley view",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.16604,
+          32.1856004
+        ]
+      },
+      "id": "node/10931524429"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10933888399",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.179823,
+          32.2064732
+        ]
+      },
+      "id": "node/10933888399"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10933892204",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1834154,
+          32.2064354
+        ]
+      },
+      "id": "node/10933892204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10937036333",
+        "name": "Yuthok Homestay",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.134942,
+          32.0575106
+        ]
+      },
+      "id": "node/10937036333"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10937137262",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0844935,
+          32.0927454
+        ]
+      },
+      "id": "node/10937137262"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10939741103",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1740921,
+          32.1998922
+        ]
+      },
+      "id": "node/10939741103"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10939753173",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1792385,
+          32.203489
+        ]
+      },
+      "id": "node/10939753173"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10939764204",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1750487,
+          32.2005243
+        ]
+      },
+      "id": "node/10939764204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10946816155",
+        "name": "Shepherd's camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2592311,
+          32.0686304
+        ]
+      },
+      "id": "node/10946816155"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10963256104",
+        "email": "kaushaldesai@gmail.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Forktail Cottage",
+        "operator": "kaushal desai",
+        "phone": "+91 9816544803",
+        "tourism": "chalet",
+        "website": "https://www.forktailcottage.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1595922,
+          32.1517891
+        ]
+      },
+      "id": "node/10963256104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10976457505",
+        "addr:street": "Gargi Rd",
+        "name": "Royal Green Homestay",
+        "phone": "+917018305640",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3349571,
+          32.0326164
+        ]
+      },
+      "id": "node/10976457505"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11014144805",
+        "addr:postcode": "175104",
+        "addr:street": "Naggar Jana road",
+        "name": "Sagar Thakur Guest House",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "operator": "Ramesh Thakur",
+        "phone": "+91 91297 19009",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1592359,
+          32.0603136
+        ]
+      },
+      "id": "node/11014144805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11014163805",
+        "addr:postcode": "175104",
+        "addr:street": "Kais Jana rd",
+        "internet_access": "wlan",
+        "name": "Shiva Home Stay",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "operator": "Prem",
+        "phone": "+919816770260",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1534257,
+          32.0460318
+        ]
+      },
+      "id": "node/11014163805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11035270136",
+        "name": "Holiday Heights",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1843584,
+          32.2268059
+        ]
+      },
+      "id": "node/11035270136"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11055064405",
+        "addr:street": "Kais Kotadar BejliMahaDev rd",
+        "internet_access": "wlan",
+        "name": "Shiva Home Stay",
+        "name:ru": "Шива Хоум Стей",
+        "phone": "+919816770260",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1531996,
+          32.0457762
+        ]
+      },
+      "id": "node/11055064405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11176435110",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1800171,
+          32.2342527
+        ]
+      },
+      "id": "node/11176435110"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11199228939",
+        "name": "Rock Manali",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1892224,
+          32.2261272
+        ]
+      },
+      "id": "node/11199228939"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11207108037",
+        "internet_access": "wlan",
+        "name": "Third Eye Home Stay & Cafe",
+        "phone": "8580890443",
+        "tourism": "hostel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3491164,
+          31.9713041
+        ]
+      },
+      "id": "node/11207108037"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11209622573",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1329193,
+          32.2322502
+        ]
+      },
+      "id": "node/11209622573"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11217457064",
+        "charge": "Dorm from 200/-",
+        "check_date": "2023-09-25",
+        "contact:email": "tagsstays@gmail.com",
+        "description": "Dorm from 200/-",
+        "name": "TAG's Stays Hostel",
+        "phone": "+91 70178 32637",
+        "tourism": "hostel",
+        "website": "https://www.instagram.com/tags_stays"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1643847,
+          32.1109176
+        ]
+      },
+      "id": "node/11217457064"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11217486081",
+        "charge": "Dorm from 360/-",
+        "check_date": "2023-09-25",
+        "description": "Dorm from 360/-",
+        "name": "Flüstern",
+        "phone": "+919740264135",
+        "tourism": "hostel",
+        "website": "https://flustern.in/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1648982,
+          32.1225705
+        ]
+      },
+      "id": "node/11217486081"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11217697154",
+        "name": "Thoti camp site",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1449907,
+          32.1728728
+        ]
+      },
+      "id": "node/11217697154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11219636678",
+        "name": "Parkuni",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2470408,
+          32.1366595
+        ]
+      },
+      "id": "node/11219636678"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11226357113",
+        "name": "Shepherd's camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2787386,
+          32.1613689
+        ]
+      },
+      "id": "node/11226357113"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11238323314",
+        "name": "Damnbro!",
+        "tourism": "hostel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2901206,
+          32.010634
+        ]
+      },
+      "id": "node/11238323314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11247798069",
+        "addr:city": "Manali",
+        "addr:district": "Kullu",
+        "addr:postcode": "175129",
+        "addr:street": "Katrain",
+        "email": "hsakapandit@gmail.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Kullvi.com",
+        "operator": "Akash Sharma",
+        "phone": "+918892037134",
+        "tourism": "chalet",
+        "website": "https://www.kullvi.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1362744,
+          32.1031721
+        ]
+      },
+      "id": "node/11247798069"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11576761271",
+        "addr:city": "Kullu",
+        "addr:postcode": "175101",
+        "addr:street": "P. O. Poid, Village Thassibrah, Distt, Kullu, Kharal",
+        "brand": "Homestay",
+        "name": "Snowdrop Homestay",
+        "phone": "07018974227",
+        "tourism": "hotel",
+        "website": "https://www.snowdrophomestay.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1130404,
+          31.9513315
+        ]
+      },
+      "id": "node/11576761271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11799900230",
+        "name": "Mountain Child's Stay",
+        "tourism": "hostel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.20118,
+          32.2113575
+        ]
+      },
+      "id": "node/11799900230"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11809527311",
+        "name": "Shepherd's camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2004047,
+          32.1550328
+        ]
+      },
+      "id": "node/11809527311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11809527980",
+        "addr:district": "Kullu",
+        "addr:postcode": "175105",
+        "addr:state": "Himachal Pradesh",
+        "branch": "Katagla",
+        "brand": "Zostel",
+        "name": "Zostel",
+        "tourism": "hostel",
+        "wikidata": "Q39054466"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2951283,
+          32.0104794
+        ]
+      },
+      "id": "node/11809527980"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11809549529",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2056234,
+          32.1619286
+        ]
+      },
+      "id": "node/11809549529"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11809595773",
+        "name": "Upepo",
+        "tourism": "hostel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1990141,
+          32.1689278
+        ]
+      },
+      "id": "node/11809595773"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11813748255",
+        "name": "Hotel Kasol Inn",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3147008,
+          32.0100521
+        ]
+      },
+      "id": "node/11813748255"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11813767516",
+        "name": "Hotel Yash Palace",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.314817,
+          32.0100388
+        ]
+      },
+      "id": "node/11813767516"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11813783246",
+        "name": "Park View Hotel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3142522,
+          32.0107394
+        ]
+      },
+      "id": "node/11813783246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11813783247",
+        "name": "Sunrise",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3143005,
+          32.0108393
+        ]
+      },
+      "id": "node/11813783247"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11813783972",
+        "name": "Raj Palace",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3143526,
+          32.0109593
+        ]
+      },
+      "id": "node/11813783972"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11854074975",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0287735,
+          31.8762386
+        ]
+      },
+      "id": "node/11854074975"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11874418801",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1782036,
+          32.2373313
+        ]
+      },
+      "id": "node/11874418801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11987087216",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2213178,
+          32.0633516
+        ]
+      },
+      "id": "node/11987087216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11987087217",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.189199,
+          32.1009892
+        ]
+      },
+      "id": "node/11987087217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12196867800",
+        "name": "Forest Rest House, Kasol",
+        "name:en": "Forest Rest House, Kasol",
+        "operator": "Parvati Forest Divion",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3166679,
+          32.0111916
+        ]
+      },
+      "id": "node/12196867800"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12228290970",
+        "name": "Camping ground",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1791868,
+          32.2049858
+        ]
+      },
+      "id": "node/12228290970"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12284557560",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9735309,
+          31.9928061
+        ]
+      },
+      "id": "node/12284557560"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12284566663",
+        "name": "Shepherd camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9736929,
+          31.9914408
+        ]
+      },
+      "id": "node/12284566663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12284574276",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9767313,
+          31.9754566
+        ]
+      },
+      "id": "node/12284574276"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12284598389",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9923394,
+          31.9602214
+        ]
+      },
+      "id": "node/12284598389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12284601908",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.984894,
+          31.9717201
+        ]
+      },
+      "id": "node/12284601908"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12284604803",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9854498,
+          31.970089
+        ]
+      },
+      "id": "node/12284604803"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12284607776",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9735634,
+          31.992472
+        ]
+      },
+      "id": "node/12284607776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12347237276",
+        "name": "Shepherd camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2591448,
+          32.0987881
+        ]
+      },
+      "id": "node/12347237276"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12487976267",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.98341,
+          32.04974
+        ]
+      },
+      "id": "node/12487976267"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12487976288",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.94869,
+          32.03578
+        ]
+      },
+      "id": "node/12487976288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12487976289",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.94872,
+          32.03374
+        ]
+      },
+      "id": "node/12487976289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12487976292",
+        "name": "Shepherd-camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.96843,
+          32.02182
+        ]
+      },
+      "id": "node/12487976292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12751843915",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0933102,
+          32.0449094
+        ]
+      },
+      "id": "node/12751843915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12762065465",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1442117,
+          32.1740447
+        ]
+      },
+      "id": "node/12762065465"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12768462600",
+        "name": "Rani Sui Lake 360° view point",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1421453,
+          32.1994741
+        ]
+      },
+      "id": "node/12768462600"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12809924914",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1716,
+          32.23546
+        ]
+      },
+      "id": "node/12809924914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12809924915",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.17089,
+          32.23492
+        ]
+      },
+      "id": "node/12809924915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12816589138",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.17547,
+          32.23544
+        ]
+      },
+      "id": "node/12816589138"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12822572102",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.16657,
+          32.22317
+        ]
+      },
+      "id": "node/12822572102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12822572105",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.16975,
+          32.22269
+        ]
+      },
+      "id": "node/12822572105"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12822572107",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.16833,
+          32.22759
+        ]
+      },
+      "id": "node/12822572107"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12841427578",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.16187,
+          32.20935
+        ]
+      },
+      "id": "node/12841427578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12841427582",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.15421,
+          32.20635
+        ]
+      },
+      "id": "node/12841427582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12841427584",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.15496,
+          32.20738
+        ]
+      },
+      "id": "node/12841427584"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12841427589",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.16266,
+          32.20924
+        ]
+      },
+      "id": "node/12841427589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12843887947",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.17389,
+          32.23681
+        ]
+      },
+      "id": "node/12843887947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12843887948",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.17193,
+          32.23506
+        ]
+      },
+      "id": "node/12843887948"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12843887950",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.17066,
+          32.23564
+        ]
+      },
+      "id": "node/12843887950"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12843887951",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.16789,
+          32.23341
+        ]
+      },
+      "id": "node/12843887951"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12870125293",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.14355,
+          32.21716
+        ]
+      },
+      "id": "node/12870125293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12870125294",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.14876,
+          32.21537
+        ]
+      },
+      "id": "node/12870125294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12870125295",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.15198,
+          32.20911
+        ]
+      },
+      "id": "node/12870125295"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12870125296",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.15635,
+          32.20719
+        ]
+      },
+      "id": "node/12870125296"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12870125297",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.16111,
+          32.21168
+        ]
+      },
+      "id": "node/12870125297"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12870125300",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.16884,
+          32.20658
+        ]
+      },
+      "id": "node/12870125300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12870132301",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.17672,
+          32.2101
+        ]
+      },
+      "id": "node/12870132301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12870132302",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.17856,
+          32.21125
+        ]
+      },
+      "id": "node/12870132302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12870132303",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.18212,
+          32.21554
+        ]
+      },
+      "id": "node/12870132303"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13040551864",
+        "description": "Simple Cafe and Hotel/Hostel. WiFi available.",
+        "name": "Rudra Cafe & Hotel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2574345,
+          32.060382
+        ]
+      },
+      "id": "node/13040551864"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13167335202",
+        "name": "Camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1812936,
+          32.2361567
+        ]
+      },
+      "id": "node/13167335202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13242948876",
+        "name": "Viewpoint",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1857416,
+          32.1515634
+        ]
+      },
+      "id": "node/13242948876"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13275116901",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3097603,
+          32.0256621
+        ]
+      },
+      "id": "node/13275116901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13275137002",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3097603,
+          32.0256621
+        ]
+      },
+      "id": "node/13275137002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13511637322",
+        "addr:city": "Kasol",
+        "addr:district": "Kullu",
+        "addr:housenumber": "Chhalal road",
+        "addr:postcode": "171103",
+        "addr:street": "Kasol-Katagla path",
+        "brand": "Tripwood kasol",
+        "email": "tripwoodkasol@gmail.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Tripwood Kasol Hotel",
+        "phone": "+919034469264",
+        "rooms": "10",
+        "tourism": "hotel",
+        "website": "www.tripwoodkasol.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3083938,
+          32.0105827
+        ]
+      },
+      "id": "node/13511637322"
     }
   ]
 }

@@ -1,36 +1,36 @@
 import geopandas as gpd
 import pandas as pd
 import numpy as np
+from datetime import datetime
 
-road_type_map = {
-    "primary": 3,
-    "secondary": 2,
-    "residential": 1,
-    "service": 1,
-    "path": 2,
-    "footway": 2,
-}
 
+    
 files = [
-    ("hospital.geojson", "hospital"),
-    ("tourism.geojson", "tourism"),
     ("road.geojson", "road"),
+    ("hospital.geojson", "hospital"),
     ("water.geojson", "water"),
-    ("place.geojson", "place"),
+    ("tourism.geojson", "tourism"),
+    ("forest.geojson", "forest"),
+    ("building.geojson", "building"),
 ]
 
 type_map = {
-    "hospital": 0,
-    "tourism": 1,
-    "road": 2,
-    "water": 3,
-    "place": 4,
+    "road": 0,
+    "hospital": 1,
+    "water": 2,
+    "tourism": 3,
+    "forest": 4,
+    "building": 5,
 }
 
 all_data = []
-building_points = []
-water_points = []
+
+road_points = []
 hospital_points = []
+water_points = []
+forest_points = []
+building_points = []
+
 
 
 for file, label in files:
@@ -40,6 +40,7 @@ for file, label in files:
     gdf = gdf.to_crs(epsg=3857)
 
     centroids = gdf.geometry.centroid
+
     centroids = gpd.GeoSeries(
         centroids,
         crs=3857
@@ -48,167 +49,176 @@ for file, label in files:
     gdf["lat"] = centroids.y
     gdf["lng"] = centroids.x
 
-    
-
     gdf["type"] = type_map[label]
+    gdf["road_type"] = 1
 
     if label == "road":
-
-        if "highway" in gdf.columns:
-            gdf["road_type"] = gdf["highway"].map(road_type_map).fillna(1)
-        else:
-            gdf["road_type"] = 1
-
-    else:
-        gdf["road_type"] = 0    
-    if label == "water":
-        water_points = gdf[["lat", "lng"]].values
+        road_points = gdf[["lat","lng"]].values
 
     if label == "hospital":
-        hospital_points = gdf[["lat", "lng"]].values
+        hospital_points = gdf[["lat","lng"]].values
 
+    if label == "water":
+        water_points = gdf[["lat","lng"]].values
+
+    if label == "forest":
+        forest_points = gdf[["lat","lng"]].values
+    if label == "building":
+        building_points = gdf[["lat","lng"]].values
     all_data.append(gdf)
-buildings = gpd.read_file("building.geojson")
-
-build_proj = buildings.to_crs(epsg=3857)
-
-centroids = build_proj.geometry.centroid
-
-centroids = gpd.GeoSeries(
-    centroids,
-    crs=3857
-).to_crs(4326)
-
-buildings["lat"] = centroids.y
-buildings["lng"] = centroids.x
-
-building_points = buildings[["lat","lng"]].values
 
 
 gdf = pd.concat(all_data)
 
 
-def distance(p, points):
-    if len(points) == 0:
-        return 0
-    d = np.sqrt((points[:,0] - p[0])**2 + (points[:,1] - p[1])**2)
-    return np.min(d)
-def density(p, points):
+import numpy as np
+
+def haversine(p, points):
 
     if len(points) == 0:
         return 0
 
-    d = np.sqrt(
-        (points[:,0] - p[0])**2 +
-        (points[:,1] - p[1])**2
-    )
+    lat1 = np.radians(p[0])
+    lon1 = np.radians(p[1])
 
-    return np.sum(d < 0.01)
+    lat2 = np.radians(points[:,0])
+    lon2 = np.radians(points[:,1])
 
-dist_water = []
+    dlat = lat2 - lat1
+    dlon = lon2 - lon1
+
+    a = np.sin(dlat/2)**2 + np.cos(lat1) * np.cos(lat2) * np.sin(dlon/2)**2
+    c = 2 * np.arcsin(np.sqrt(a))
+
+    R = 6371  
+
+    return np.min(R * c)
+
+
+def density(p, points, radius=1):  # radius in km
+
+    if len(points) == 0:
+        return 0
+
+    lat1 = np.radians(p[0])
+    lon1 = np.radians(p[1])
+
+    lat2 = np.radians(points[:,0])
+    lon2 = np.radians(points[:,1])
+
+    dlat = lat2 - lat1
+    dlon = lon2 - lon1
+
+    a = np.sin(dlat/2)**2 + np.cos(lat1) * np.cos(lat2) * np.sin(dlon/2)**2
+    c = 2 * np.arcsin(np.sqrt(a))
+
+    R = 6371
+
+    dist = R * c
+
+    return np.sum(dist < radius)
+
+
+
 dist_hospital = []
+dist_water = []
+dist_road = []
+forest_density = []
 building_density = []
+
+elevation = []
+slope = []
+landslide = []
+
+weather = []
+time_list = []
+network = []
+
+
+hour = datetime.now().hour
+
 
 for i, row in gdf.iterrows():
 
     p = [row["lat"], row["lng"]]
 
-    dist_water.append(distance(p, water_points))
-    dist_hospital.append(distance(p, hospital_points))
+    
+    dist_hospital.append(haversine(p, hospital_points))
+    dist_water.append(haversine(p, water_points))
+    dist_road.append(haversine(p, road_points))
 
-    building_density.append(
-        density(p, building_points)
-    )
+    
+    forest_density.append(density(p, forest_points))
+    
+    building_density.append(density(p, building_points))
 
+    
+    elevation_val = 300 + (row["lat"] -31) * 1000
+    elevation.append(elevation_val)
 
-gdf["dist_water"] = dist_water
-gdf["dist_hospital"] = dist_hospital
-gdf["building_density"] = building_density
+    
+    slope_val = abs((row["lat"] * 100) % 60)
+    slope.append(slope_val)
 
-import random
-
-from datetime import datetime
-
-weather = []
-hill = []
-crime_zone = []
-network = []
-time_list = []
-
-hour = datetime.now().hour
-
-for i, row in gdf.iterrows():
-
-    # time
+    
     if hour > 18 or hour < 6:
         time_list.append(1)
     else:
         time_list.append(0)
 
-    # hill → low building density = remote = hill
-    if row["building_density"] < 3:
-        hill.append(1)
-    else:
-        hill.append(0)
-
-    # weather default clear (real weather will come in runtime)
+    
     weather.append(0)
 
-    # crime risk
-    if row["building_density"] < 3 and time_list[-1] == 1:
-        crime_zone.append(2)
-    elif row["building_density"] < 5:
-        crime_zone.append(1)
+    
+    if slope_val > 50:
+        landslide.append(1)
     else:
-        crime_zone.append(0)
+        landslide.append(0)
 
-    # network risk
-    if row["building_density"] < 3:
+    if building_density[-1] < 3:
         network.append(1)
     else:
         network.append(0)
 
 
-gdf["weather"] = weather
-gdf["hill"] = hill
-gdf["crime"] = crime_zone
-gdf["network"] = network
+
+
+gdf["dist_hospital"] = dist_hospital
+gdf["dist_water"] = dist_water
+gdf["dist_road"] = dist_road
+gdf["forest_density"] = forest_density
+gdf["building_density"] = building_density
+
+gdf["elevation"] = elevation
+gdf["slope"] = slope
+gdf["landslide"] = landslide
+
 gdf["time"] = time_list
+gdf["weather"] = weather
+gdf["network"] = network
 
 
-gdf["risk"] = 0  
+# =========================
+# RISK CALCULATION
+# =========================
 
-gdf.loc[gdf["dist_water"] < 0.01, "risk"] += 1
+gdf["risk"] = 0
 
-gdf.loc[gdf["dist_hospital"] > 0.03, "risk"] += 1
-
-gdf.loc[gdf["building_density"] < 3, "risk"] += 1
-
+gdf.loc[gdf["dist_hospital"] > 5, "risk"] += 1
+gdf.loc[gdf["dist_road"] > 2, "risk"] += 1
+gdf.loc[gdf["weather"] >= 1, "risk"] += 1
+gdf.loc[gdf["slope"] > 40, "risk"] += 1
+gdf.loc[gdf["landslide"] == 1, "risk"] += 2
 gdf.loc[gdf["time"] == 1, "risk"] += 1
-
-gdf.loc[gdf["weather"] == 2, "risk"] += 1
-
-gdf.loc[(gdf["hill"] == 1) & (gdf["weather"] > 0), "risk"] += 1
-
 gdf.loc[gdf["network"] == 1, "risk"] += 1
+gdf.loc[gdf["building_density"] < 3, "risk"] += 1
 
 gdf["risk"] = gdf["risk"].clip(0,2)
 
 
-
-safe = gdf[gdf["risk"] == 0]
-medium = gdf[gdf["risk"] == 1]
-danger = gdf[gdf["risk"] == 2]
-
-n = min(len(safe), len(medium), len(danger))
-
-if n > 0:
-    safe = safe.sample(n)
-    medium = medium.sample(n)
-    danger = danger.sample(n)
-    gdf = pd.concat([safe, medium, danger])
-
-
+# =========================
+# FINAL DATASET
+# =========================
 
 df = gdf[
     [
@@ -218,21 +228,20 @@ df = gdf[
         "road_type",
         "dist_water",
         "dist_hospital",
+        "dist_road",
+        "forest_density",
         "building_density",
         "time",
         "weather",
-        "hill",
-        "crime",
+        "elevation",
+        "slope",
+        "landslide",
         "network",
         "risk"
     ]
 ]
 
 
-
 df.to_csv("final_dataset.csv", index=False)
 
-print("Dataset with distance created")
-
-import os
-print(os.getcwd())
+print("Trekking dataset created")

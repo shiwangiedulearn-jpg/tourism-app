@@ -1,6 +1,7 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score
 import joblib
 
 df = pd.read_csv("clustered_dataset.csv")
@@ -16,13 +17,16 @@ X = df[
         "road_type",
         "dist_water",
         "dist_hospital",
+        "dist_road",
+        "forest_density",
         "building_density",
-        "cluster",
         "time",
         "weather",
-        "hill",
-        "crime",
-        "network"
+        "elevation",
+        "slope",
+        "landslide",
+        "network",
+        "cluster"
     ]
 ]
 
@@ -39,8 +43,10 @@ model = RandomForestClassifier(n_estimators=300,
 
 model.fit(X_train, y_train)
 
-print("Accuracy:", model.score(X_test, y_test))
+y_pred = model.predict(X_test)
+
+print("Accuracy:", accuracy_score(y_test, y_pred))
 
 joblib.dump(model, "risk_model.pkl")
 
-print("Model saved")
+print("Model trained (trekking)")

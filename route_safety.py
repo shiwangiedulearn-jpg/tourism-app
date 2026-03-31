@@ -8,13 +8,16 @@ import requests
 from datetime import datetime
 
 
+
 model = joblib.load("risk_model.pkl")
 
 
 
-water_gdf = gpd.read_file("water.geojson")
-hospital_gdf = gpd.read_file("hospital.geojson")
-building_gdf = gpd.read_file("building.geojson")
+water = gpd.read_file("water.geojson")
+hospital = gpd.read_file("hospital.geojson")
+building = gpd.read_file("building.geojson")
+road = gpd.read_file("road.geojson")
+forest = gpd.read_file("forest.geojson")
 
 cluster_df = pd.read_csv("clustered_dataset.csv")
 
@@ -26,14 +29,13 @@ def get_cluster(lat, lng):
     if len(cluster_points) == 0:
         return 0
 
-    p = np.array([lat, lng])
+    distances = []
 
-    d = np.sqrt(
-        (cluster_points[:,0] - p[0])**2 +
-        (cluster_points[:,1] - p[1])**2
-    )
+    for pt in cluster_points:
+        d = haversine([lat, lng], np.array([pt]))
+        distances.append(d)
 
-    idx = np.argmin(d)
+    idx = np.argmin(distances)
 
     return int(cluster_values[idx])
 
@@ -54,24 +56,35 @@ def get_points(gdf):
     return gdf[["lat", "lng"]].values
 
 
-water_points = get_points(water_gdf)
-hospital_points = get_points(hospital_gdf)
-building_points = get_points(building_gdf)
+water_points = get_points(water)
+hospital_points = get_points(hospital)
+building_points = get_points(building)
+road_points = get_points(road)
+forest_points = get_points(forest)
 
 
 
 
-def distance(p, points):
+
+def haversine(p, points):
 
     if len(points) == 0:
         return 0
 
-    d = np.sqrt(
-        (points[:,0] - p[0])**2 +
-        (points[:,1] - p[1])**2
-    )
+    lat1 = np.radians(p[0])
+    lon1 = np.radians(p[1])
 
-    return np.min(d)
+    lat2 = np.radians(points[:,0])
+    lon2 = np.radians(points[:,1])
+
+    dlat = lat2 - lat1
+    dlon = lon2 - lon1
+
+    a = np.sin(dlat/2)**2 + np.cos(lat1)*np.cos(lat2)*np.sin(dlon/2)**2
+    c = 2 * np.arcsin(np.sqrt(a))
+
+    R = 6371
+    return np.min(R * c)
 
 
 def density(p, points):
@@ -79,12 +92,66 @@ def density(p, points):
     if len(points) == 0:
         return 0
 
-    d = np.sqrt(
-        (points[:,0] - p[0])**2 +
-        (points[:,1] - p[1])**2
-    )
+    lat1 = np.radians(p[0])
+    lon1 = np.radians(p[1])
 
-    return np.sum(d < 0.01)
+    lat2 = np.radians(points[:,0])
+    lon2 = np.radians(points[:,1])
+
+    dlat = lat2 - lat1
+    dlon = lon2 - lon1
+
+    a = np.sin(dlat/2)**2 + np.cos(lat1)*np.cos(lat2)*np.sin(dlon/2)**2
+    c = 2 * np.arcsin(np.sqrt(a))
+
+    R = 6371
+    dist = R * c
+
+    return np.sum(dist < 1)
+
+def predict_risk(lat, lng):
+
+    
+    dist_hospital = min(haversine([lat, lng], hospital_points), 10) / 10
+    dist_water = min(haversine([lat, lng], water_points), 5) / 5
+    dist_road = min(haversine([lat, lng], road_points), 5) / 5
+
+    
+    building_density = density([lat, lng], building_points)
+    forest_density = density([lat, lng], forest_points)
+    network = 0 if building_density > 10 else 1
+
+    
+    elevation = get_elevation(lat, lng)
+
+    
+    slope = abs(get_elevation(lat + 0.001, lng) - elevation)
+
+    
+    risk = 0
+
+    if slope > 25:
+        risk += 1
+
+    if dist_road > 0.6:
+        risk += 1
+
+    if building_density < 5:
+        risk += 1
+
+    if forest_density > 5:
+        risk += 1
+
+    if elevation > 3000:
+        risk += 1
+
+    return {
+      "risk": min(risk, 2),
+      "hospital": dist_hospital,
+      "building": building_density,
+      "forest": forest_density,
+      "network": network
+}
 
 def near_points(route, points, radius=0.01):
 
@@ -94,46 +161,38 @@ def near_points(route, points, radius=0.01):
 
         for p in points:
 
-            d = np.sqrt(
-                (r[0]-p[0])**2 +
-                (r[1]-p[1])**2
-            )
+            d = haversine(r, np.array([p]))
 
-            if d < radius:
+            if d < 1:
                 count += 1
 
     return count
 
 
 
-def generate_route(start, end):
+def generate_routes(start, end):
 
     lat1, lng1 = start
     lat2, lng2 = end
 
-    G = ox.graph_from_point(
-        (lat1, lng1),
-        dist=20000,
-        network_type="drive"
-    )
+    G = ox.graph_from_point((lat1, lng1), dist=20000, network_type="drive")
 
     orig = ox.nearest_nodes(G, lng1, lat1)
     dest = ox.nearest_nodes(G, lng2, lat2)
 
-    route = nx.shortest_path(G, orig, dest, weight="length")
+    
+    route1 = nx.shortest_path(G, orig, dest, weight="length")
 
-    coords = []
+    
+    route2 = nx.shortest_path(G, orig, dest, weight="travel_time")
 
-    for node in route:
+    def convert(route):
+        coords = []
+        for node in route:
+            coords.append([G.nodes[node]["y"], G.nodes[node]["x"]])
+        return coords[::5]
 
-        y = G.nodes[node]["y"]
-        x = G.nodes[node]["x"]
-
-        coords.append([y, x])
-
-    coords = coords[::5]
-
-    return coords
+    return convert(route1), convert(route2)
 
 
 
@@ -159,197 +218,219 @@ def get_weather(lat, lng):
         return 1
 
 
-
-
-def get_hill(lat, lng):
-
-    url = f"https://api.open-meteo.com/v1/elevation?latitude={lat}&longitude={lng}"
-
+def get_elevation(lat, lng):
     try:
-
+        url = f"https://api.open-meteo.com/v1/elevation?latitude={lat}&longitude={lng}"
         data = requests.get(url).json()
-
-        elevation = data["elevation"][0]
-
-        if elevation > 400:
-            return 1
-        else:
-            return 0
-
+        return data["elevation"][0]
     except:
-        return 0
+        return 200
 
 
 
 
-def predict_risk(lat, lng):
+def route_risk(route):
 
-    type_val = 2
-    road_type_val = 1
+    total_score = 0
+    zones = []
 
-    dist_water = distance([lat,lng], water_points)
-    dist_hospital = distance([lat,lng], hospital_points)
+    for p in route:
 
-    building_density = density([lat,lng], building_points)
-    cluster = get_cluster(lat, lng)
+        result = predict_risk(p[0], p[1])
+        level = result["risk"]
 
-    weather_val = get_weather(lat, lng)
-    hill_val = get_hill(lat, lng)
+        zones.append(level)
 
-    
-    hour = datetime.now().hour
+        
+        score = (
+            level * 3 +                       
+            (result["network"] * 1) +           
+            (result["building"] < 5) * 2 +      
+            (result["forest"] > 5) * 1          
+        )
 
-    if hour > 18 or hour < 6:
-        time_val = 1
-    else:
-        time_val = 0
+        total_score += score
 
-    
-    if building_density < 3 and time_val == 1:
-        crime_val = 2
-    elif building_density < 5:
-        crime_val = 1
-    else:
-        crime_val = 0
+    avg_score = total_score / len(route)
 
-    # network
-    if building_density < 3:
-        network_val = 1
-    else:
-        network_val = 0
+    return avg_score, zones
 
+def summarize_route(route):
 
-    data = pd.DataFrame(
-        [[
-            lat,
-            lng,
-            type_val,
-            road_type_val,
-            dist_water,
-            dist_hospital,
-            building_density,
-            cluster,
-            time_val,
-            weather_val,
-            hill_val,
-            crime_val,
-            network_val
-        ]],
-        columns=[
-            "lat",
-            "lng",
-            "type",
-            "road_type",
-            "dist_water",
-            "dist_hospital",
-            "building_density",
-            "cluster",
-            "time",
-            "weather",
-            "hill",
-            "crime",
-            "network"
-        ]
-    )
+    total_hospital = 0
+    total_building = 0
+    total_forest = 0
+    total_network = 0
 
+    for p in route:
 
-    pred = model.predict(data)[0]
+        result = predict_risk(p[0], p[1])
+        near_hospital = find_nearby(p, hospital_points)
 
-    return pred
+        total_hospital += len(near_hospital)
+        total_building += result["building"]
+        total_forest += result["forest"]
+        total_network += result["network"]
+
+    n = len(route)
+
+    return {
+        "hospitals": total_hospital // n,
+        "buildings": total_building // n,
+        "forest": total_forest // n,
+        "network": total_network // n
+    }
+
+def group_zones(route, zones):
+
+    grouped = []
+
+    current_zone = zones[0]
+    segment = [route[0]]
+
+    route_data = []
+
+    for i in range(1, len(route)):
+
+        if zones[i] == current_zone:
+            segment.append(route[i])
+        else:
+            grouped.append((current_zone, segment))
+            current_zone = zones[i]
+            segment = [route[i]]
+
+    grouped.append((current_zone, segment))
+
+    return grouped
 
 def get_safe_route(start, end):
 
-    route1 = generate_route(start, end)
-
-    route2 = generate_route(
-        start,
-        [end[0] + 0.01, end[1]]
-    )
-
-    route3 = generate_route(
-        start,
-        [end[0], end[1] + 0.01]
-    )
-
-
-    def route_risk(route):
-
-        total = 0
-        zones = []
-
-        for p in route:
-
-            r = predict_risk(p[0], p[1])
-
-            total += r
-
-            if r == 0:
-                zones.append("green")
-            elif r == 1:
-                zones.append("yellow")
-            else:
-                zones.append("red")
-
-        return total, zones
-
+    route1, route2 = generate_routes(start, end)
 
     r1, z1 = route_risk(route1)
     r2, z2 = route_risk(route2)
-    r3, z3 = route_risk(route3)
+
+    summary1 = summarize_route(route1)
+    summary2 = summarize_route(route2)
+
+    print("\n--- ROUTE COMPARISON ---")
+    print("Route 1 Score:", r1)
+    print("Route 2 Score:", r2)
 
 
-    print("Route1 risk:", r1)
-    print("Route2 risk:", r2)
-    print("Route3 risk:", r3)
+    if r1 <= r2:
+         print("\n✅ Route 1 is SAFER")
 
+         print("\nFacilities in Route 1:")
+         print("Hospitals:", summary1["hospitals"])
+         print("Buildings:", summary1["buildings"])
+         print("Forest:", summary1["forest"])
+         print("Network:", "LOW" if summary1["network"] else "GOOD")
 
-    if r1 <= r2 and r1 <= r3:
-
-        best = route1
-        zones = z1
-        print("Route1 safer")
-
-    elif r2 <= r3:
-
-        best = route2
-        zones = z2
-        print("Route2 safer")
+         return {
+          "route": route1,
+          "zones": z1,
+          "score": r1
+         }
 
     else:
+       print("\n✅ Route 2 is SAFER")
 
-        best = route3
-        zones = z3
-        print("Route3 safer")
+       print("\nFacilities in Route 2:")
+       print("Hospitals:", summary2["hospitals"])
+       print("Buildings:", summary2["buildings"])
+       print("Forest:", summary2["forest"])
+       print("Network:", "LOW" if summary2["network"] else "GOOD")
+
+       return {
+          "route": route2,
+          "zones": z2,
+          "score": r2
+         }
+
+def get_zone_color(level):
+    if level == 0:
+        return "SAFE"
+    elif level == 1:
+        return "MODERATE"
+    else:
+        return "DANGEROUS"
 
 
-    print("Hospitals:", near_points(best, hospital_points))
-    print("Water:", near_points(best, water_points))
-    print("Buildings:", near_points(best, building_points))
 
 
-    return best, zones
+def find_nearby(point, points, threshold=1):
+
+    near = []
+
+    for p in points:
+        if haversine(point, np.array([p])) < threshold:
+            near.append(p)
+
+    return near
 
 if __name__ == "__main__":
 
-    print("Enter start location")
     lat1 = float(input("Start latitude: "))
     lng1 = float(input("Start longitude: "))
 
-    print("Enter end location")
     lat2 = float(input("End latitude: "))
     lng2 = float(input("End longitude: "))
 
-    start = [lat1, lng1]
-    end = [lat2, lng2]
+    result = get_safe_route([lat1, lng1], [lat2, lng2])
 
-    route, zones = get_safe_route(start, end)
+    route = result["route"]
+    zones = result["zones"]
+    score = result["score"]
+    grouped_zones = group_zones(route, zones)
 
-    print("Route length:", len(route))
+    print("\nSAFE ROUTE:\n")
+    
+    route_data = []
+    for zone, segment in grouped_zones:
 
-    for i in range(len(route)):
+       print("\nZONE:", get_zone_color(zone))
+       print("Points in this region:", len(segment))
 
-        print(
-            route[i],
-            "zone:",
-            zones[i]
-        )   
+       for point in segment:
+
+          result = predict_risk(point[0], point[1])
+          near_hospital = find_nearby(point, hospital_points)
+
+          route_data.append({
+              "lat": point[0],
+              "lng": point[1],
+              "zone": zones,
+              "buildings": result["building"],
+              "forest": result["forest"],
+              "network": result["network"]
+})
+
+          print(
+              point,
+              "| Hospitals:", len(near_hospital),
+              "| Buildings:", result["building"],
+              "| Forest:", result["forest"],
+              "| Network:", "LOW" if result["network"] else "GOOD"
+        )
+
+
+        
+          if len(near_hospital) == 0:
+            print(" ⚠ No hospitals nearby")
+          if result["network"] == 1:
+            print("⚠ Poor network coverage")
+          if result["forest"] > 5:
+            print("⚠ Dense forest area")
+
+print("\nDATA READY FOR FRONTEND")
+print("Total points:", len(route_data))
+        
+
+       
+
+
+   
+
+
+    
