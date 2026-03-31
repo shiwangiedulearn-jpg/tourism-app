@@ -5,6 +5,8 @@ import geopandas as gpd
 from datetime import datetime
 import requests
 from sklearn.metrics.pairwise import haversine_distances
+from dotenv import load_dotenv
+load_dotenv()
 
 model = joblib.load("risk_model.pkl")
 
@@ -74,7 +76,8 @@ def density(p, points, radius=5):
 
 def get_weather_details(lat, lng):
 
-    api_key= "33adcc1ddd49659d0c6c0a10eb97b591"
+    import os
+    api_key= os.getenv("WEATHER_API_KEY")
 
     url = f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lng}&appid={api_key}&units=metric"
 
