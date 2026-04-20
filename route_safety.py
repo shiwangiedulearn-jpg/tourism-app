@@ -400,7 +400,7 @@ if __name__ == "__main__":
           route_data.append({
               "lat": point[0],
               "lng": point[1],
-              "zone": zones,
+              "zone": zone,
               "buildings": result["building"],
               "forest": result["forest"],
               "network": result["network"]
@@ -423,8 +423,8 @@ if __name__ == "__main__":
           if result["forest"] > 5:
             print("⚠ Dense forest area")
 
-print("\nDATA READY FOR FRONTEND")
-print("Total points:", len(route_data))
+    print("\nDATA READY FOR FRONTEND")
+    print("Total points:", len(route_data))
         
 
        

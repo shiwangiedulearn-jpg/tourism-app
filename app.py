@@ -15,20 +15,20 @@ model = joblib.load("risk_model.pkl")
 
 @app.route('/route', methods=['POST'])
 def route():
-    """Endpoint to calculate safe route between two points"""
     try:
         data = request.get_json()
+
         start = data['start']
         end = data['end']
-        
-        # Calculate safe route using your existing route_safety module
-        route_points, risk_zones = get_safe_route(start, end)
-        
+
+        result = get_safe_route(start, end)
+
         return jsonify({
-            "route": route_points,
-            "zones": risk_zones
+            "route": result["route"],
+            "zones": result["zones"],
+            "score": result["score"]
         })
-    
+
     except Exception as e:
         return jsonify({"error": str(e)}), 400
 
