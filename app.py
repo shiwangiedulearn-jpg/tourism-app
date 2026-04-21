@@ -33,6 +33,20 @@ def route():
     except Exception as e:
         return jsonify({"error": str(e)}), 400
 
+@app.route('/', methods=['GET'])
+def home():
+    """Welcome endpoint"""
+    return jsonify({
+        "message": "Tourism Safety Risk Prediction API",
+        "version": "1.0.0",
+        "endpoints": {
+            "health": "/health",
+            "predict": "/predict (POST)",
+            "route": "/route (POST)"
+        },
+        "status": "running"
+    })
+
 @app.route('/health', methods=['GET'])
 def health():
     """Health check endpoint"""
